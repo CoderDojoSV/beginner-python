@@ -24,7 +24,7 @@ All materials necessary for the course will be provided. If you are interested i
 
 [:rocket: Day 5][4]: PyGame Animation
 
-[:rocket: Day 6][5]: Paddle Ball Game
+[:rocket: Day 6][5]: Paddle Game
 
 [0]: Day-1/
 [1]: Day-2/

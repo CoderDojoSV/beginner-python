@@ -1,0 +1,1 @@
+We will provide starter code that does a lot of a simple paddle game. It's a one player game with two paddles (like pong) and you have to control both - one using the arrow keys and the mouse. This will show them how to use both type of inputs. They will have to add things like score, speeding up the game every 5 kids, etc.

@@ -1,7 +1,6 @@
-
-##Project - Silly Sentence Generator
-
+##Silly Sentence Generator
 
 
 
-##Project - MadLibs
+
+##MadLibs

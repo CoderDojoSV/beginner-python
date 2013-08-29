@@ -4,7 +4,7 @@
 
 ##Is this course right for you?
 
-If you are curious about typed programming and have very little to no previous experience, this is a great fit for you. Scratch or other drag-and-drop experience helps, but is not necessary. Typing is required and limited as much as possible - if you are intimidated by typing a few sentences, this course might not be a good fit. Suggested age: 10 and up.
+If you are curious about typed programming and have very little to no previous experience, this is a great fit for you. Scratch or other drag-and-drop experience helps, but is not necessary. Typing is required and limited as much as possible - if you are intimidated by typing a few sentences, this course might not be a good fit. Suggested age: 10 to 13.
 
 The only real requirements are curiousity and enthusiasm!
 

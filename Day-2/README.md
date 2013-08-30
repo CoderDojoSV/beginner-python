@@ -8,7 +8,7 @@ We will do this as a group, going line by line.
 
 ####Create your own noun and adjective lists
 
-Look at how the verb list was done
+Look at how the verb list was done.
 
 ####Use the function to select random words from each list
 

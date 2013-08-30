@@ -18,5 +18,9 @@ You will need 5 variables: adjective1, noun1, verb, adjective2, and noun2.
 
 Be sure to insert the word "the" in the right places.
 
+####Possible extensions
+
+Improve your word list. Add adverbs.
+
 
 ##MadLibs

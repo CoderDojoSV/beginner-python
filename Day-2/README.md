@@ -10,7 +10,7 @@ We will do this as a group, going line by line.
 
 Look at how the verb list was done
 
-####Use the function to select words
+####Use the function to select random words from each list
 
 You will need 5 variables: adjective1, noun1, verb, adjective2, and noun2.
 

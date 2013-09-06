@@ -5,7 +5,7 @@ Go to http://helloworldbookblog.com/tools/ and download the installer for your o
 If there are installation issues, http://repl.it/ can be used for the first few sessions (before graphics are required). 
 
 
-##First Project
+##First Intro to Python
 
 Open Python IDLE. This opens the output window - we will write our code in a new file. Click File -> New Window.
 
@@ -39,6 +39,11 @@ Print the info the user typed in.
     your_name = raw_input("What is your name? ")
     your_age = input("How old are you? ")
     print "your name is", your_name, "and you are", your_age
+
+
+##Reading and Altering Code - Number Guess Game
+
+Grab the file [number guess game.py](number guess game.py) and copy it into a new Python window. Play the game!
 
 
 ##Project - Multiplication Game

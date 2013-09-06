@@ -7,11 +7,38 @@ If there are installation issues, http://repl.it/ can be used for the first few 
 
 ##First Project
 
-Introduce print, variables, input / raw_input
+Open Python IDLE. This opens the output window - we will write our code in a new file. Click File -> New Window.
 
-Type this to print something:
+In the new window, type this to print something:
 
     print "hello world"
+
+Save the project as a .py extension (you can hit CTRL/CMD + S to save). Hit F5 to run your program.
+
+Create your first variable and print it
+
+    print "hello world"
+    name = "Brian"
+    print "my name is", name
+
+Have the user type in something and store it in a variable.
+
+    print "hello world"
+    name = "Brian"
+    print "my name is", name
+    
+    your_name = raw_input("What is your name?")
+    your_age = input("How old are you?")
+    
+Print the info the user typed in.
+
+    print "hello world"
+    name = "Brian"
+    print "my name is", name
+    
+    your_name = raw_input("What is your name? ")
+    your_age = input("How old are you? ")
+    print "your name is", your_name, "and you are", your_age
 
 
 ##Project - Multiplication Game

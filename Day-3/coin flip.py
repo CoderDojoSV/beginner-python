@@ -8,7 +8,7 @@ def flip_coin():
     return ""
 
 #flip 100 times
-for n in range(0,100):
+for n in range(0,1000):
     flip = flip_coin()
     if flip == "heads":
         total_heads = total_heads + 1

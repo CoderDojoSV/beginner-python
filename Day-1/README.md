@@ -54,7 +54,7 @@ Some new things to point out:
 * != (check if not equal), == (check if equal)
 
 Let's make some changes! Can you:
-* Give the pirate has your name
+* Give the pirate your name
 * Change the game to be guessing between 1-200
 * Give 8 guesses
 

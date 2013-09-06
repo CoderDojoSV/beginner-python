@@ -11,7 +11,7 @@ Introduce print, variables, input / raw_input
 
 Type this to print something:
 
-  print "hello world"
+  > print "hello world"
 
 
 ##Project - Multiplication Game

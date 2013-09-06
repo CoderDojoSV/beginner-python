@@ -45,6 +45,14 @@ Print the info the user typed in.
 
 Grab the file [number guess game.py](number guess game.py) and copy it into a new Python window. Play the game!
 
+Let's read through the code to see how it does it!
+
+Some new things to point out:
+*Random is a module that was imported so you will be able to pick a random number
+*While is a loop that repeats code as long as the condition is met. All the code that is repeated is under it indented one space.
+*if/else branches the code so that it only happens if the condition is met. The code that gets run if the condition is met is under it indented one space.
+*!= (check if not equal), == (check if equal)
+
 
 ##Project - Multiplication Game
 

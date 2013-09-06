@@ -1,3 +1,13 @@
+##MadLibs
+
+Open the starter file: [madlibs.py](madlibs.py). Copy all the code into a new Python window.
+
+If you try to run it what happens?
+
+Look at the code - you have set all the variables for the program to run. Also print a welcome message.
+
+Finished example (no peeking early): [madlibs finished.py](madlibs finished.py)
+
 ##Silly Sentence Generator
 
 Open the starter file: [silly sentence generator.py](silly sentence generator.py). Copy all the code into a new Python window.
@@ -24,4 +34,4 @@ Be sure to insert the word "the" in the right places.
 * Add adverbs.
 
 
-##MadLibs
+

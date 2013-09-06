@@ -18,7 +18,7 @@ All materials necessary for the course will be provided. If you are interested i
 
 [:rocket: Day 2][1]: Silly Sentence Generator and MadLibs
 
-[:rocket: Day 3][2]: Simulating Dice Rolls and Coin Flips
+[:rocket: Day 3][2]: Simulating Coin Flips and Dice Rolls
 
 [:rocket: Day 4][3]: PyGame Random Art
 

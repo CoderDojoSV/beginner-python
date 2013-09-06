@@ -6,7 +6,6 @@ If you try to run it what happens?
 
 Look at the code - you have set all the variables for the program to run. Also print a welcome message.
 
-Finished example (no peeking early): [madlibs finished.py](madlibs finished.py)
 
 ##Silly Sentence Generator
 

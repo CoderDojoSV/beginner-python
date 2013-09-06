@@ -59,6 +59,11 @@ Let's make some changes! Can you:
 * Give 8 guesses
 
 
-##Project - Multiplication Game
+## Multiplication Game
 
-Start with the number guessing game and change to a multiplication quiz game. 
+We are going to take what we learned in the Number Guess Game and create a new game - a multiplication quiz. The finished project will ask you a series of 10 random multiplication questions, you have to get each one right to go on to the next one.
+
+* Grab the starter file [multiplication game.py](multiplication game.py) and copy it into a new window.
+* 
+* Print a welcome message introducing the game
+* Use random so

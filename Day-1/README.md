@@ -75,4 +75,5 @@ We are going to take what we learned in the Number Guess Game and create a new g
     * You could use a for loop that repeats code a specific number of times. This line will repeat the indented code 10 times:
 
 > for num in range(0,10):
+
     * You could also use a while loop and count yourself. See how the number guess game counted the number of tries.

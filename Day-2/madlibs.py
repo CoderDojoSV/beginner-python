@@ -3,7 +3,7 @@
 #Print an introduction
 
 #Ask the user for all the variables
-#Have to set: adjective1 through 5, animal1, animal2, food1, food2, verb, ptverb (apast tense verb)
+#Have to set: adjective1 through 5, animal1, animal2, food1, food2, verb, ptverb (a past tense verb)
 adjective1 = raw_input("Enter an adjective: ")
 
 #print out the result

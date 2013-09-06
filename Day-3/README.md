@@ -33,3 +33,5 @@ This is how we can look up what the number is in a spot and print it out. This w
 Your job is to complete the dice_roll() function. It should roll two 6-sided dice and add the rolls together. It should return their total.
 
 That's it! Test it and see if it is faster or slower than the coin flip program. 
+
+Take home challenge: can you change the program to roll 3 dice? How many slots would you have to add to the array? How about 5 dice?

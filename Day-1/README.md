@@ -71,4 +71,7 @@ We are going to take what we learned in the Number Guess Game and create a new g
 ###Finish the project
 * Print a welcome message introducing the game
 * Use random so it doesn't ask 1 x 1 every time (look at the number guessing game for an example)
-* 
+* How can you repeat the code so it asks 10 questions in a row?
+    * You could use a for loop that repeats code a specific number of times. This line will repeat the indented code 10 times:
+            for num in range(0,10):
+    * You could also use a while loop and count yourself. See how the number guess game counted the number of tries.

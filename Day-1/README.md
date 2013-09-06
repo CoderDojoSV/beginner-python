@@ -63,7 +63,12 @@ Let's make some changes! Can you:
 
 We are going to take what we learned in the Number Guess Game and create a new game - a multiplication quiz. The finished project will ask you a series of 10 random multiplication questions, you have to get each one right to go on to the next one.
 
+###Getting started
 * Grab the starter file [multiplication game.py](multiplication game.py) and copy it into a new window.
-* 
+* Run it to see what it does
+* Read the code to see how it was done
+
+###Finish the project
 * Print a welcome message introducing the game
-* Use random so
+* Use random so it doesn't ask 1 x 1 every time (look at the number guessing game for an example)
+* 

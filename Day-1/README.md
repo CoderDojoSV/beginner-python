@@ -83,6 +83,6 @@ We are going to take what we learned in the Number Guess Game and create a new g
     
 * Print a message at the end of the game
 
-* Finished example (no peeking early): [multiplication game finished.py](multiplication game finished.py)
+* Finished example (no peeking early): [multiplication game.py](finished/multiplication game.py)
 
 * Bonus take home challenge: can you count how many times they got questions wrong and tell them at the end of the game?

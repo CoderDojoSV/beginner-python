@@ -53,6 +53,11 @@ Some new things to point out:
 * if/else branches the code so that it only happens if the condition is met. The code that gets run if the condition is met is under it indented one space.
 * != (check if not equal), == (check if equal)
 
+Let's make some changes! Can you:
+* Give the pirate has your name
+* Change the game to be guessing between 1-200
+* Give 8 guesses
+
 
 ##Project - Multiplication Game
 

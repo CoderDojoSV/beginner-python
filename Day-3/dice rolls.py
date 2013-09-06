@@ -17,6 +17,16 @@ def roll_dice():
 for i in range(1000):
     dice_total = roll_dice()
     totals[dice_total] += 1
-    
-for i in range (2, 13): 
-    print "total", i, "came up", totals[i], "times"
+
+#why did we skip spots 0 and 1?
+print "2 came up", totals[2], "times"
+print "3 came up", totals[3], "times"
+print "4 came up", totals[4], "times"
+print "5 came up", totals[5], "times"
+print "6 came up", totals[6], "times"
+print "7 came up", totals[7], "times"
+print "8 came up", totals[8], "times"
+print "9 came up", totals[9], "times"
+print "10 came up", totals[10], "times"
+print "11 came up", totals[11], "times"
+print "12 came up", totals[12], "times"

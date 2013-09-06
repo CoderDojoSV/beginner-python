@@ -14,7 +14,7 @@ This course is inspired by the material from the book [Hello World! Computer Pro
 
 All materials necessary for the course will be provided. If you are interested in more projects after the 6 weeks are over, grab a copy of the book.
 
-[:rocket: Day 1][0]: Installation and Multiplication Game
+[:rocket: Day 1][0]: Intro, Number Guessing Game, Multiplication Game
 
 [:rocket: Day 2][1]: Silly Sentence Generator and MadLibs
 

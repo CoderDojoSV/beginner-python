@@ -21,3 +21,15 @@ That's it! Test it out and see how many times can your program flip a coin a sec
 Grab the starter file [dice rolls.py](dice rolls.py) and copy it into a new Python window.
 
 This program uses an array named totals. An array is a variable that remembers a list of info in specific slots (the slots start counting at 0). 
+
+This is how you can set a specific slot in the array. In this example we are setting spot 5 (remember it counts starting at zero) to be 99.
+
+        totals[5] = 99
+
+This is how we can look up what the number is in a spot and print it out. This would print 99
+
+        print totals[5]
+        
+Your job is to complete the dice_roll() function. It should roll two 6-sided dice and add the rolls together. It should return their total.
+
+That's it! Test it and see if it is faster or slower than the coin flip program. 

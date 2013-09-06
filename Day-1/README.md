@@ -78,3 +78,9 @@ We are going to take what we learned in the Number Guess Game and create a new g
         for num in range(0,10):
 
     You could also use a while loop and count yourself. See how the number guess game counted the number of tries.
+    
+    What code would you want to repeat? Highlight all of it and hit tab to indent it one space.
+    
+* Print a message at the end of the game
+
+Finished example (no peaking early): [multiplication game finished.py](multiplication game finished.py)

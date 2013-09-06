@@ -3,6 +3,8 @@
 # Released under MIT license   http://www.opensource.org/licenses/mit-license.php
 # Version 61  ----------------------------
 
+#Minor changes by Brian Skinner, Sept-2013
+
 # Number Guess game
 
 import random
@@ -19,7 +21,7 @@ while guess != secret and tries < 6:
     guess = input("What's yer guess? ")       # get the player's guess
     if guess < secret:
         print "Too low, ye scurvy dog!"
-    elif guess > secret:
+    if guess > secret:
         print "Too high, landlubber!"
     tries = tries + 1                         # used up one try
 

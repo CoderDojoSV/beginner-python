@@ -20,3 +20,4 @@ That's it! Test it out and see how many times can your program flip a coin a sec
 
 Grab the starter file [dice rolls.py](dice rolls.py) and copy it into a new Python window.
 
+This program uses an array named totals. An array is a variable that remembers a list of info in specific slots (the slots start counting at 0). 

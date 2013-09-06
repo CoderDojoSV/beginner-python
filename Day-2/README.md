@@ -20,7 +20,8 @@ Be sure to insert the word "the" in the right places.
 
 ####Possible extensions
 
-Improve your word list. Add adverbs.
+* Improve your word list.
+* Add adverbs.
 
 
 ##MadLibs

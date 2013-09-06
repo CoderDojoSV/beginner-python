@@ -16,7 +16,7 @@ def roll_dice():
 
 for i in range(1000):
     dice_total = roll_dice()
-    totals[dice_total] += 1
+    totals[dice_total] = totals[dice_total] + 1
 
 #why did we skip spots 0 and 1?
 print "2 was rolled", totals[2], "times"

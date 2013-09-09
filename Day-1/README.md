@@ -28,7 +28,6 @@ Have the user type in something and store it in a variable.
     print "my name is", name
     
     your_name = raw_input("What is your name?")
-    your_age = input("How old are you?")
     
 Print the info the user typed in.
 
@@ -37,9 +36,19 @@ Print the info the user typed in.
     print "my name is", name
     
     your_name = raw_input("What is your name? ")
-    your_age = input("How old are you? ")
-    print "your name is", your_name, "and you are", your_age
+    print "your name is", your_name
+    
+You can use `raw_input` to ask the user for strings - things like names and sentences.  
+If you use `input`, Python will try to change what the user typed into a number.
 
+    print "hello world"
+    name = "Brian"
+    print "my name is", name
+    
+    your_name = raw_input("What is your name? ")
+    print "your name is", your_name
+    your_age = input("How old are you? ")
+    print "in a year you will be", your_age+1, "years old"
 
 ##Reading and Altering Code - Number Guess Game
 

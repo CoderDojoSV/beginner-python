@@ -14,3 +14,17 @@ If you receive the error:
     error: Couldn't open beach_ball.png
     
 Then your image file was not saved in the correct location!
+
+Read through the file to see what it is doing.
+
+####Challenge #1
+Can you make the beach ball appear lower on the screen?
+
+####Challenge #2
+Can you make the beach ball go twice as fast?
+
+####Challenge #3
+Can you switch the beach ball's direction?
+
+####Challenge #4
+Can you add a second image to the animation? Download a small image from the internet ([look, here is one](minecraft.gif)) and save it in the same location as your Python file. What new variables do you need to create?

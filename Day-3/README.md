@@ -1,6 +1,6 @@
 ##Simulating Coin Flips
 
-Grab the starter file [coin flips.py](coin flips.py) and copy it into a new Python window.
+Grab the starter file [coin flip.py](coin flip.py) and copy it into a new Python window.
 
 The goal of the program is to simulate flipping a coin 1000 times. It uses a function flip_coin() that is incomplete. It's your job to finish it.
 

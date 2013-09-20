@@ -25,7 +25,7 @@ Add the event loop
 
 Pygame uses a coordinate system to describe where things are on the screen.  (0,0) is the top-left and (640,480) is the bottom right.
 
-[The coordinate system](coordinates.png)
+![The coordinate system](coordinates.png)
 
 ##Drawing Shapes
 

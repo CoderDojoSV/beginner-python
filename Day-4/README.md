@@ -21,6 +21,12 @@ Add the event loop
                 running = False
     pygame.quit()
 
+##The coordinate grid
+
+Pygame uses a coordinate system to describe where things are on the screen.  (0,0) is the top-left and (640,480) is the bottom right.
+
+[The coordinate system](coordinates.png)
+
 ##Drawing Shapes
 
 Draw lines, rectangles, and circles.

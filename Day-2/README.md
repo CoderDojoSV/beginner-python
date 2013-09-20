@@ -31,6 +31,6 @@ Be sure to insert the word "the" in the right places.
 
 * Improve your word list.
 * Add adverbs.
-
+* Spit out 10 silly sentences instead of 1
 
 

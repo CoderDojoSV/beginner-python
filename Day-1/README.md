@@ -7,7 +7,7 @@ If there are installation issues, http://repl.it/ can be used for the first few 
 
 ##First Intro to Python
 
-Open Python IDLE. This opens the output window - we will write our code in a new file. Click File -> New Window.
+Open Python IDLE. This opens the output window - we will write our code in a new file. Click File -> New Window.  This will open up a new window to type Python code.
 
 In the new window, type this to print something:
 
@@ -15,13 +15,17 @@ In the new window, type this to print something:
 
 Save the project as a .py extension (you can hit CTRL/CMD + S to save). Hit F5 to run your program.
 
-Create your first variable and print it
+Create your first variable and print it.  In computer language, a variable is what lets the computer remember something.  In this case, we want the computer to remember our name.  
+
+Below that is a `print` statement that shows you how to print a variable.
 
     print "hello world"
     name = "Brian"
     print "my name is", name
 
-Have the user type in something and store it in a variable.
+The next task is to ask the user for something.  That's what `raw_input` does.
+
+We can have the user type in something and store it in a variable.
 
     print "hello world"
     name = "Brian"
@@ -29,7 +33,9 @@ Have the user type in something and store it in a variable.
     
     your_name = raw_input("What is your name?")
     
-Print the info the user typed in.
+If you run this, you'll see that there's no space between the `?` and the user's input.  We can fix this by adding a space in.
+
+When you use `raw_input`, it stores what the user typed in in a variable.  We can print the info the user typed in:
 
     print "hello world"
     name = "Brian"
@@ -50,15 +56,33 @@ If you use `input`, Python will try to change what the user typed into a number.
     your_age = input("How old are you? ")
     print "in a year you will be", your_age+1, "years old"
 
+If you try to type "nine" when it asks for the age, it won't work.  Python doesn't know what "nine" is, it only know the digit "9".
+
+There are two types of variables we'll be using today: strings (things like words, sentences), and integers (whole numbers).  Python thinks "nine" is a string, and can't change it to a number.
+
 ##Reading and Altering Code - Number Guess Game
 
-Grab the file [number guess game.py](number guess game.py) and copy it into a new Python window. Play the game!
+Grab the file [number guess game.py](number guess game.py) and copy it into a new Python window. This is a complete game that came out of a book.  Save it, and play the game!
+
+Then, we'll start looking through the code, and start making changes to it.
 
 Let's read through the code to see how it does it!
 
-Some new things to point out:
+It uses three variables:
+ * `secret`, which stores the number you have to guess
+ * `guess`, which is what the player guesses
+ * `tries`, which is how many times the player has guessed.
+ 
+Look at those comments, with the `#` before them.  This doesn't mean anything to the computer, but they can help when you come back to your code and need to understand it again.
+ 
+Look at this while:
+ 
+    while guess != secret and tries < 6:
+    
+This is saying, "While the player has guessed wrong, and they have tries, do this over and over again."  After the `while`, things are indented (with the Tab key), which indicate which code gets repeated.
+
+Some other things to point out:
 * Random is a module that was imported so you will be able to pick a random number
-* While is a loop that repeats code as long as the condition is met. All the code that is repeated is under it indented one space.
 * if/else branches the code so that it only happens if the condition is met. The code that gets run if the condition is met is under it indented one space.
 * != (check if not equal), == (check if equal)
 
@@ -77,6 +101,8 @@ We are going to take what we learned in the Number Guess Game and create a new g
 * Run it to see what it does
 * Read the code to see how it was done
 
+We'll be making a lot more changes to this program to get it to do what we want.
+
 ###Finish the project
 * Print a welcome message introducing the game
 * Use random so it doesn't ask 1 x 1 every time (look at the number guessing game for an example)
@@ -94,4 +120,6 @@ We are going to take what we learned in the Number Guess Game and create a new g
 
 * Finished example (no peeking early): [multiplication game.py](finished/multiplication game.py)
 
-* Bonus take home challenge: can you count how many times they got questions wrong and tell them at the end of the game?
+* Bonus take home challenge: can you count how many times they got questions wrong and tell them at the end of the game? Some other ideas:
+* * Can you time the player?
+* * What else can you do with user input?  What other games can you create?

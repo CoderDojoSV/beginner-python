@@ -1,21 +1,20 @@
 #Madlibs credit: http://www.teach-nology.com/worksheets/language_arts/madlibs/1/
 
-#Print an introduction
-print "Welcome to MadLibs. Enter a series of words and I'll give you a silly story!"
-
 #Ask the user for all the variables
-#Have to set: adjective1 through 5, animal1, animal2, food1, food2, verb, ptverb (a past tense verb)
+#Have to set: adjective1 through 5, animal1, animal2, food1, food2,
+#  verb, ptverb (a past tense verb)
 adjective1 = raw_input("Enter an adjective: ")
-adjective2 = raw_input("Enter an adjective: ")
-adjective3 = raw_input("Enter an adjective: ")
-adjective4 = raw_input("Enter an adjective: ")
-adjective5 = raw_input("Enter an adjective: ")
+adjective2 = raw_input("Enter another adjective: ")
+adjective3 = raw_input("Enter yet another adjective: ")
+adjective4 = raw_input("Enter a fourth adjective: ")
+adjective5 = raw_input("Enter a fifth adjective (last one, I promise): ")
 animal1 = raw_input("Enter an animal: ")
-animal2 = raw_input("Enter an animal: ")
+animal2 = raw_input("Enter another animal: ")
 food1 = raw_input("Enter a food item: ")
-food2 = raw_input("Enter a food item: ")
+food2 = raw_input("Enter another food item: ")
 verb = raw_input("Enter a verb: ")
-ptverb = raw_input("Enter a past tense verb: ")
+ptverb = raw_input("Enter an -ed verb: ")
+
 
 #print out the result
 print "" #blank line

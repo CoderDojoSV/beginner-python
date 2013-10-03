@@ -1,5 +1,3 @@
-Last week, Brian tought us some basic Python, and today we're going to do some more advanced things.
-
 ##MadLibs
 
 Open the starter file: [madlibs.py](madlibs.py). Copy all the code into a new Python window.

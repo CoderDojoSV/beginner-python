@@ -106,3 +106,18 @@ Can you change the program to print 10 silly sentences instead of 1?  Look back 
 * Improve the sentences' grammar
 * Make the sentences longer, with more word types
 * Just see how creative you can get with your sentences!
+
+
+##Challenge Problem
+
+Here is a bonus [MadLib](http://www.teach-nology.com/worksheets/language_arts/madlibs/6/) that you can turn into a program: 
+
+```
+print "Make Me A Video Game MadLib!"
+print "I the", adj1, "and", adj2, name1, "has", past_tense_verb, name2 + "'s sister and"
+print "plans to steal her", adj3, noun1 + "! What are a", animal1, "and backpacking", animal2
+print "to do? Before you can help", name3, "you'll have to collect the", adj4, plural_noun1, "and"
+print adj5, plural_noun2, "that open up the", number1, "worlds connected to", name4 + "'s Lair."
+print "There are", number2, plural_noun3, "and", number3, plural_noun4, "in the game, along with"
+print "hundreds of other goodies for you to find."
+```

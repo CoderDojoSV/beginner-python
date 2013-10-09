@@ -30,7 +30,7 @@ It took 16 steps!
 
 How can you make this into a program? It should ask the user to enter a number, output the number at every step, and count how many steps it took to finish. 
 
-This will require one thing that you likely haven't seen before: mod (%). This is how you can determine if a number is even or odd. Mod is similar to division, but just worries about the remainder. So if you said 7 mod 2, it is asking what the remainder is when you divide 7 by 2. The answer is 1. This is how you can program this in Python:
+This will require one thing that you likely haven't seen before: mod (%). Mod can be used to determine if a number is even or odd. Mod is similar to division, but just worries about the remainder. So if you do 7 mod 2, it is asking what the remainder is when you divide 7 by 2. The answer is 1. This is how you can check if a variable called 'number' is even:
 
     if number % 2 == 0:
 

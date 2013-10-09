@@ -58,6 +58,18 @@ Chapter 6 (page 84) in the book shows how to create a text-adventure game called
 Chapter 9 (page 132) in the book shows how to create the letter and word guessing game Hangman. [Here is the online pdf version of the book](http://inventwithpython.com/IYOCGwP_book1.pdf). 
 
 
+###Invent With Python - Bagels
+
+[Invent With Python](http://inventwithpython.com/) is a free online Python book with some great projects.
+
+Chapter 11 (page 217) in the book shows how to create a number guessing game called Bagels. Here is the description of the game from the book:
+
+        Bagels is a simple game you can play with a friend. Your friend thinks up a random 3-digit number with no repeating digits, and you try to guess what the number is. After each guess, your friend gives you clues on how close your guess was. If the friend tells you “bagels”, that means that none of the three digits you guessed is in the secret number. If your friend tells you “pico”, then one of the digits is in the secret number, but your guess has the digit in the wrong place. If your friend tells you “fermi”, then your guess has a correct digit in the correct place. Of course, even if you get a pico or fermi clue, you still don't know which digit in your guess is the correct one.
+
+        You can also get multiple clues after each guess. Say the secret number is 456, and your guess is 546. The clue you get from your friend would be “fermi pico pico” because one digit is correct and in the correct place (the digit 6), and two digits are in the secret number but in the wrong place (the digits 4 and 5). 
+
+[Here is the online pdf version of the book](http://inventwithpython.com/IYOCGwP_book1.pdf). 
+
 
 
 

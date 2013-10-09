@@ -33,9 +33,6 @@ How can you make this into a program? It should ask the user to enter a number, 
 This will require one thing that you likely haven't seen before: mod (%). This is how you can determine if a number is even or odd. Mod is similar to division, but just worries about the remainder. So if you said 7 mod 2, it is asking what the remainder is when you divide 7 by 2. The answer is 1. This is how you can program this in Python:
 
     if number % 2 == 0:
-      #code for even
-    else:
-      #code for odd
 
 What happens when you enter a really big number? How many steps does it take?
 

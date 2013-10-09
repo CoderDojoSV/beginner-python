@@ -35,3 +35,7 @@ Your job is to complete the dice_roll() function. It should roll two 6-sided dic
 That's it! Test it and see if it is faster or slower than the coin flip program. 
 
 Take home challenge: can you change the program to roll 3 dice? How many slots would you have to add to the array? How about 5 dice?
+
+##Bonus Text Based Programs
+
+In Day 4 we will begin doing some graphics. There are a couple more fun text based programs that you can try before then. Go to https://github.com/CoderDojoSV/beginner-python/tree/master/Extras and check them out!

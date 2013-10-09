@@ -1,6 +1,6 @@
 ##Hailstone Pattern
 
-The hailstone pattern is a cool number pattern that for any positive whole number, it will always end in one. It repeats the following steps until it gets to one: if the number is even, it will divide by two. If the number is negative, it will multiply by three and add one.
+The hailstone pattern is a cool number pattern that for any positive whole number, it will always end in one. It repeats the following steps until it gets to one: if the number is even, it will divide by two. If the number is odd, it will multiply by three and add one.
 
 Here is an example that starts with the number 7:
 

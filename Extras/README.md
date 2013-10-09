@@ -45,7 +45,7 @@ Refer to the finished folder for a complete example.
 
 The San Francisco CoderDojo has done a really fun Tic-Tac-Toe Python project that you can go through. Head to https://github.com/CoderDojoSF/tic-tac-toe and follow the links for Lesson 1 and Lesson 2!
 
-###Invent With Python - Dragon Realm
+###Dragon Realm - Invent With Python
 
 [Invent With Python](http://inventwithpython.com/) is a free online Python book with some great projects.
 
@@ -58,7 +58,7 @@ Chapter 6 (page 84) in the book shows how to create a text-adventure game called
 Chapter 9 (page 132) in the book shows how to create the letter and word guessing game Hangman. [Here is the online pdf version of the book](http://inventwithpython.com/IYOCGwP_book1.pdf). 
 
 
-###Invent With Python - Bagels
+###Bagels - Invent With Python
 
 [Invent With Python](http://inventwithpython.com/) is a free online Python book with some great projects.
 

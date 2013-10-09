@@ -37,5 +37,7 @@ What happens when you enter a really big number? How many steps does it take?
 
 Refer to the finished folder for a complete example.
 
+##Tic-Tac-Toe
 
+The San Francisco CoderDojo has done a really fun Tic-Tac-Toe Python project that you can go through. Head to https://github.com/CoderDojoSF/tic-tac-toe and follow the links for Lesson 1 and Lesson 2!
 

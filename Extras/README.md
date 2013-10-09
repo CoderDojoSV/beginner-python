@@ -1,4 +1,3 @@
-
 ##Hailstone Pattern
 
 The hailstone pattern is a cool number pattern that for any positive whole number, it will always end in one. It repeats the following steps until it gets to one: if the number is even, it will divide by two. If the number is negative, it will multiply by three and add one.
@@ -34,7 +33,9 @@ This will require one thing that you likely haven't seen before: mod (%). This i
     else:
       #code for odd
 
+What happens when you enter a really big number? How many steps does it take?
 
+Refer to the finished folder for a complete example.
 
 
 

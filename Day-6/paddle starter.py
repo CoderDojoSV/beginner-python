@@ -1,6 +1,7 @@
 #Credit the Invent With Python book (http://inventwithpython.com)
 #for doRectsOverlap and isPointInsideRect functions
 
+#used to detect collisions in our game
 def doRectsOverlap(rect1, rect2):
     for a, b in [(rect1, rect2), (rect2, rect1)]:
         # Check if a's corners are inside b
@@ -12,6 +13,7 @@ def doRectsOverlap(rect1, rect2):
 
     return False
 
+#used the by the doRectsOverlap function (won't be called directly from game code)
 def isPointInsideRect(x, y, rect):
     if (x > rect.left) and (x < rect.right) and (y > rect.top) and (y < rect.bottom):
         return True
@@ -37,6 +39,7 @@ paddle_height = 20
 paddle_color = [20,180,180]
 paddle_speed = 20
 
+#game loop
 while True:
     for event in pygame.event.get():
         #check if you've exited the game

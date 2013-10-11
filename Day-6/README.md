@@ -64,14 +64,21 @@ The other new piece of code is for detecting collisions between the paddle and b
         if doRectsOverlap(ball_rect, paddle_rect):
             print "YES"
             
-            
+
+##Next Steps
+
+
+    
 ####Make the ball appear at a random X location every time it goes to the top
+
 
 
 ####Create a score that increases every time you catch the ball
 
 Here is some example code. The first line creates a font (this only needs to be done once, so not in the game loop). Then it renders it on the screen and blits it (these should happen in the game loop).
 
-    myfont = pygame.font.SysFont("monospace", 15)
-    label = myfont.render("Some text!", 1, (0,0,0))
+    myfont = pygame.font.SysFont("Arial", 15)
+    label = myfont.render("Some text!", 1, pygame.color.THECOLORS['red'])
     screen.blit(label, (100, 100))
+
+

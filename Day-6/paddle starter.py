@@ -30,7 +30,7 @@ ball_x = 50
 ball_y = 50
 ball_radius = 10
 ball_color = [222,50,50]
-ball_speed = 5
+ball_speed_y = 5
 
 paddle_x = 200
 paddle_y = 400
@@ -54,19 +54,19 @@ while True:
             if event.key == pygame.K_RIGHT:
                 paddle_x = paddle_x + paddle_speed
 
-    #pause for 20 milliseconds  
+    #pause for 20 milliseconds
     pygame.time.delay(20)
     #make the screen completely white
     screen.fill(black)
 
     #move the ball
-    ball_y = ball_y + ball_speed
+    ball_y = ball_y + ball_speed_y
     #check if the ball is off the bottom of the screen
     if ball_y > screen.get_width():
         ball_y = 0
 
     #create rectangles around ball and paddle
-    ball_rect = pygame.Rect(ball_x, ball_y, ball_radius*2,ball_radius*2)
+    ball_rect = pygame.Rect(ball_x-ball_radius, ball_y-ball_radius, ball_radius*2,ball_radius*2) #circles are measured from the center, so have to subtract 1 radius from the x and y
     paddle_rect = pygame.Rect(paddle_x, paddle_y, paddle_width, paddle_height)
     #see if the rectangles overlap
     if doRectsOverlap(ball_rect, paddle_rect):

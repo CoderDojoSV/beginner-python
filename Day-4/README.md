@@ -93,4 +93,6 @@ More Challenges:
 
 ##Take Home Challenge
 
-Draw your own picture! 
+Draw your own picture! Go to http://colorpicker.com/ to determine the RGB values for different colors to use in your image. [Here is the finished code](finished/pygame house.py) for drawing this image: 
+
+![The coordinate system](pygame house.png)

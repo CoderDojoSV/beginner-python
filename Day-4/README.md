@@ -4,7 +4,7 @@ You can check if you have pygame installed by typing "import pygame" in the shel
 
 ##Starting out with Pygame
 
-**Do not name your file pygame.py!** IDLE will thing your file is the module we are trying to use, which won't work!
+**Do not name your file pygame.py!** IDLE will think your file is the pygame module we are trying to use, which won't work!
 
 We can start out by telling Pygame to open a window.  This will give us a place to draw things on the screen.
 

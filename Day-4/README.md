@@ -1,6 +1,10 @@
 Note: You cannot use repl.it for this session.  Make sure you've [installed everything](https://github.com/CoderDojoSV/beginner-python/blob/master/Day-1/README.md#installation) before you come to the session.
 
+You can check if you have pygame installed by typing "import pygame" in the shell and hitting enter. If you have it setup, it will not do anything. If you don't, you will get an error.
+
 ##Starting out with Pygame
+
+**Do not name your file pygame.py!** IDLE will thing your file is the module we are trying to use, which won't work!
 
 We can start out by telling Pygame to open a window.  This will give us a place to draw things on the screen.
 
@@ -82,6 +86,11 @@ We can combine random and pygame to create art!  Take a look at the starter file
 
 How can we change the art the program creates?  Try changing the program to draw thicker lines and different numbers of lines.
 
-Take-Home Challenges:
+More Challenges:
  - Can you change the program so it also draws circles?
  - How about rectangles?
+ - Can you change the program so it adds shapes to the screen one at a time? You can use pygame.time.delay(20) to pause for a bit
+
+##Take Home Challenge
+
+Draw your own picture! 

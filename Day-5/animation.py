@@ -19,12 +19,11 @@ x = 50
 y = 50
 x_speed = 5
 
-while True:
-    #this checks if you've exited the game
+running = True;
+while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            pygame.quit()
-            #sys.exit()
+            running = False
 
     #pause for 20 milliseconds  
     pygame.time.delay(20)
@@ -35,6 +34,8 @@ while True:
     x = x + x_speed
     if x > screen.get_width():                                
         x = 0
+        
+pygame.quit()
 
     #draw the ball on the screen at the x and y location
     screen.blit(my_ball, [x, y])

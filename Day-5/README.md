@@ -31,3 +31,6 @@ Can you add a second image to the animation? Download a small image from the int
 
 ####Challenge #5
 Can you make one of the images travel in both the x and y direction and bounce off the walls?
+
+####Challenge #6
+Can you make the other image travel left and right, bouncing off the walls and doubling in speed each bounce?

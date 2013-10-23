@@ -35,9 +35,10 @@ while running:
     if x > screen.get_width():                                
         x = 0
         
-pygame.quit()
 
     #draw the ball on the screen at the x and y location
     screen.blit(my_ball, [x, y])
     #update the entire display
     pygame.display.update()
+
+pygame.quit()

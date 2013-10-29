@@ -39,13 +39,13 @@ paddle_height = 20
 paddle_color = [20,180,180]
 paddle_speed = 20
 
+running = True
 #game loop
-while True:
+while running:
     for event in pygame.event.get():
         #check if you've exited the game
         if event.type == pygame.QUIT:
-            pygame.quit()
-            #sys.exit()
+            running = False
 
         #check if you pressed a key
         if event.type == pygame.KEYDOWN:
@@ -65,7 +65,7 @@ while True:
     if ball_y > screen.get_width():
         ball_y = 0
 
-    #create rectangles around ball and paddle
+    #create imaginary rectangles around ball and paddle
     ball_rect = pygame.Rect(ball_x-ball_radius, ball_y-ball_radius, ball_radius*2,ball_radius*2) #circles are measured from the center, so have to subtract 1 radius from the x and y
     paddle_rect = pygame.Rect(paddle_x, paddle_y, paddle_width, paddle_height)
     #see if the rectangles overlap
@@ -78,3 +78,6 @@ while True:
     pygame.draw.rect(screen, paddle_color, [paddle_x, paddle_y, paddle_width, paddle_height], 0)
     #update the entire display
     pygame.display.update()
+
+
+pygame.quit()

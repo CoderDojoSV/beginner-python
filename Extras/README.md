@@ -85,3 +85,4 @@ Snake is a game where you control an always moving character using the keys. The
 
 Here is an example of the game created in Scratch: http://scratch.mit.edu/projects/2627038/
 
+Refer to the finished folder for a complete example.

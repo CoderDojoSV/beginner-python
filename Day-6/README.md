@@ -88,7 +88,7 @@ KEYDOWN isn't the only event supported by Pygame. The following code is an examp
         coordinates = pygame.mouse.get_pos() #gives (x,y) coordinates
         paddle_x = coordinates[0] #sets the paddle_x variable to the first item in coordinates
 
-Check out http://www.pygame.org/docs/ref/event.html for the complete list of Pygame events. Also see the [Key documentation](http://www.pygame.org/docs/ref/mouse.html) for the complete list of key codes and the 
+Check out http://www.pygame.org/docs/ref/event.html for the complete list of Pygame events. Also see the [Key documentation](http://www.pygame.org/docs/ref/key.html) for the complete list of key codes.
 
 ####Don't allow the paddle to go off the screen
 

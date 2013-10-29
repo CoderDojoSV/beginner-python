@@ -86,3 +86,33 @@ Snake is a game where you control an always moving character using the keys. The
 Here is an example of the game created in Scratch: http://scratch.mit.edu/projects/2627038/
 
 Refer to the finished folder for a complete example.
+
+###Adding Complexity - Functions that Set Variables
+
+If you want to make more complex games, there are some additional concepts that you can put to use. The first is using functions (which you have created before) to change variables. 
+
+In order for a function to change a variable, you must use the 'global' keyword to let Python know you are using the variable already created outside of the function rather than creating a new one. The [pong finished with function.py](finished/pong finished with function.py) example uses the following function to reset the ball:
+
+    def reset_ball(side):
+        global ball_x
+        global ball_speed_x
+        global ball_speed_y
+        global score1
+        global score2
+    
+        ball_speed_y = 5
+        if side == "left":
+            ball_speed_x = -3
+            score2 = score2 + 1
+            ball_x = 600
+        else:
+            ball_speed_x = 3
+            score1 = score1 + 1
+            ball_x = 40
+
+Functions are a powerful way to start creating more impressive games. 
+
+###Adding Complexity - Classes and Sprites in Pygame
+
+For the 6 day track we didn't cover using sprites in Pygame because it involves a new concept: classes. A class can be thought of as a blue-print that you can use to create many copies of something. Each copy can have their own set of variables (called properties). In pong there were already a lot of variables to keep track of, what if the game had many more object in it!
+

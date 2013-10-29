@@ -62,7 +62,7 @@ while running:
     #move the ball
     ball_y = ball_y + ball_speed_y
     #check if the ball is off the bottom of the screen
-    if ball_y > screen.get_width():
+    if ball_y > screen.get_height():
         ball_y = 0
 
     #create imaginary rectangles around ball and paddle

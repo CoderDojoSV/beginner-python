@@ -19,7 +19,7 @@ x = 50
 y = 50
 x_speed = 5
 
-running = True;
+running = True
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

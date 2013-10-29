@@ -68,11 +68,11 @@ The other new piece of code is for detecting collisions between the paddle and b
 
 
     
-####Make the ball appear at a random X location every time it goes to the top
+####Make the ball move in both the x and y direction and bounce off the balls
 
+See the Day 5 animation projects for how to do it
 
-
-####Create a score that increases every time you catch the ball
+####Create a score that increases every time you hit the ball
 
 Here is some example code. The first line creates a font (this only needs to be done once, so not in the game loop). Then it renders it on the screen and blits it (these should happen in the game loop).
 
@@ -80,4 +80,19 @@ Here is some example code. The first line creates a font (this only needs to be 
     label = myfont.render("Some text!", 1, pygame.color.THECOLORS['red'])
     screen.blit(label, (100, 100))
 
+####Make the paddle controlled by the mouse
+
+KEYDOWN isn't the only event supported by Pygame. The following code is an example of how to use the MOUSEMOTION event to move your paddle:
+
+    if event.type == pygame.MOUSEMOTION:
+        coordinates = pygame.mouse.get_pos() #gives (x,y) coordinates
+        paddle_x = coordinates[0] #sets the paddle_x variable to the first item in coordinates
+
+Check out http://www.pygame.org/docs/ref/event.html for the complete list of Pygame events. Also see the [Key documentation](http://www.pygame.org/docs/ref/mouse.html) for the complete list of key codes and the 
+
+####Don't allow the paddle to go off the screen
+
+How can you add an if so that you don't ever move your paddle off the screen? Or put another way, if you paddle is off the screen, how can you move it back onto the screen?
+
+####Turn into a 2 player pong game
 

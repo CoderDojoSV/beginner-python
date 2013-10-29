@@ -94,5 +94,9 @@ Check out http://www.pygame.org/docs/ref/event.html for the complete list of Pyg
 
 How can you add an if so that you don't ever move your paddle off the screen? Or put another way, if you paddle is off the screen, how can you move it back onto the screen?
 
+####Add a speed boost
+
+How can you increase your ball speed 10% every time you hit it? 
+
 ####Turn into a 2 player pong game
 

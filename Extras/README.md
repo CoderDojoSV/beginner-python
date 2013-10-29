@@ -77,4 +77,11 @@ Chapter 11 (page 217) in the book shows how to create a number guessing game cal
 
 
 
+##More Graphics Programs to Try
+
+###Snake
+
+Snake is a game where you control an always moving character using the keys. The goal is to hit the target without hitting a wall. If you do, your character starts moving faster and the target appears somewhere else. The game ends when you hit the wall. 
+
+Here is an example of the game created in Scratch: http://scratch.mit.edu/projects/2627038/
 

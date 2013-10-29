@@ -45,8 +45,7 @@ Inside the game loop there are a few things worth pointing out. The first is tha
     for event in pygame.event.get():
         #check if you've exited the game
         if event.type == pygame.QUIT:
-            pygame.quit()
-            #sys.exit()
+            running = False
 
         #check if you pressed a key
         if event.type == pygame.KEYDOWN:
@@ -57,7 +56,7 @@ Inside the game loop there are a few things worth pointing out. The first is tha
                 
 The other new piece of code is for detecting collisions between the paddle and ball. First it creates a rectangle (that isn't drawn on the screen) around the ball and paddle, then uses the doRectsOverlap function to find out if they are touching. If they are it will print "YES" to the shell window.
 
-    #create rectangles around ball and paddle
+    #create imaginary rectangles around ball and paddle
     ball_rect = pygame.Rect(ball_x-ball_radius, ball_y-ball_radius, ball_radius*2,ball_radius*2) #circles are measured from the center, so have to subtract 1 radius from the x and y
     paddle_rect = pygame.Rect(paddle_x, paddle_y, paddle_width, paddle_height)
     #see if the rectangles overlap

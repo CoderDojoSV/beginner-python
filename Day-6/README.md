@@ -109,3 +109,9 @@ This will make sure the pygame.KEYDOWN event keeps firing every 20 ms while you 
 
 See [pong finished.py](finished/pong finished.py) for a complete example. 
 
+
+##Bonus Graphics Programs
+
+There are more ideas fun graphics programs that you can make. Go to https://github.com/CoderDojoSV/beginner-python/tree/master/Extras#more-graphics-programs-to-try and check them out!
+
+

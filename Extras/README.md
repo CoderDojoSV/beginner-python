@@ -116,6 +116,12 @@ Functions are a powerful way to start creating more impressive games.
 
 For the 6 day track we didn't cover using sprites in Pygame because it involves a new concept: classes. A class can be thought of as a blue-print that you can use to create many copies of something. Each copy can have their own set of variables (called properties). In pong there were already a lot of variables to keep track of, what if the game had many more objects in it!
 
-Take a look at [catch the good ones.py](Finished/catch the good ones.py) for an example of a simple game that uses a class. In this game your goal is to catch all the falling green balls and avoid the red ones.
+Take a look at [catch the good ones.py](Finished/catch the good ones.py) for an example of a simple game that uses a class. In this game your goal is to catch all the falling green balls and avoid the red ones. (You must also download the red_ball.png and green_ball.png files in the /Finished folder.)
 
 There are many sources to learn more about Pygame sprites and creating Python classes. If you are learning on your own, check out a book like [Hello World! Computer Programming for Kids and Other Beginners](http://www.amazon.com/Hello-World-Computer-Programming-Beginners/dp/1933988495).
+
+###Breakout
+
+Take a look at [breakout.py](Finished/breakout.py) for another game that uses a class. (You must also download the brick.png file in the [Finished](Finished/) folder.)
+
+How can you improve this starter game?

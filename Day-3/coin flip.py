@@ -7,7 +7,7 @@ total_tails = 0
 def flip_coin():
     return ""
 
-#flip 100 times
+#flip 1000 times
 for n in range(0,1000):
     flip = flip_coin()
     if flip == "heads":

@@ -79,7 +79,7 @@ Look at this while:
  
     while guess != secret and tries < 6:
     
-This is saying, "While the player has guessed wrong, and they have tries, do this over and over again."  After the `while`, things are indented (with the Tab key), which indicate which code gets repeated.
+This is saying, "While the player has guessed wrong, and they have tries, do this over and over again."  **After the `while`, several lines of code are indented (with the Tab key), which indicate which code gets repeated. Indents matter in Python!**
 
 Some other things to point out:
 * Random is a module that was imported so you will be able to pick a random number

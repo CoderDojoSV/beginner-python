@@ -120,6 +120,14 @@ We'll be making a lot more changes to this program to get it to do what we want.
 
 * Finished example (no peeking early): [multiplication game.py](finished/multiplication game.py)
 
-* Bonus take home challenge: can you count how many times they got questions wrong and tell them at the end of the game? Some other ideas:
-* * Can you time the player?
-* * What else can you do with user input?  What other games can you create?
+### You Finished, Now What?
+Congrats on finishing your very first game in Python! I'm going to guess that it's not very fun to play though. Computer programming is not just about finishing the basic requirements, it's about being creative and making the game your own! Always ask yourself, what would make this game more fun? What would make it cool?
+
+Here are some ideas to get you started:
+
+* Can you count how many times they got questions wrong and tell them at the end of the game?
+* Can you add another level with a harder num range?
+* Can you add division problems as well?
+* Can you ask to multiply 3 numbers instead of 2?
+* Can you time the player?
+* What other games can you do with user input?  

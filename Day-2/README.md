@@ -1,26 +1,6 @@
-##MadLibs
-
-Open the starter file: [madlibs.py](madlibs.py). Copy all the code into a new Python window.
-
-If you try to run it, what happens?
-
-Look at the code - you have set all the variables for the program to run.  We can use `raw_input` (from the last session) to ask the user for words:
-
-```
-adjective2 = raw_input("Enter another adjective: ")
-adjective3 = raw_input("Enter yet another adjective: ")
-adjective4 = raw_input("Enter a fourth adjective: ")
-```
-
-Notice that you can use commas to string things together in a `print` statement.  Python automatically adds a space when you do something like `"Hello,", name`.
-
-You can also notice that IDLE automatically adds colors to code.  Built-in functions like `raw_input` are purple, keywords are orange, and strings are green.  Comments (that Python ignores) are red, and most other things are black. The colors don't matter to Python, but they're useful to help you understand your code.
-
-If you run the program, Python takes all our variables and sticks them into our sentences. Try running the program multiple times and see what sentences you can create!
-
 ##Silly Sentence Generator
 
-Our next project is kind of like MadLibs, but instead of asking the user for words, the computer is going to pick words itself.
+Our next project is a silly sentence generator that will randomly pick words from lists to generate a funny sentence.
 
 Open the starter file: [silly sentence generator.py](silly sentence generator.py). Copy all the code into a new Python window.
 
@@ -106,16 +86,3 @@ Can you change the program to print 10 silly sentences instead of 1?  Look back 
 * Just see how creative you can get with your sentences!
 
 
-##Challenge Problem
-
-Here is a bonus [MadLib](http://www.teach-nology.com/worksheets/language_arts/madlibs/6/) that you can turn into a program: 
-
-```
-print "Make Me A Video Game MadLib!"
-print "I, the", adj1, "and", adj2, name1 + ", has", past_tense_verb, name2 + "'s sister and plans"
-print "to steal her", adj3, noun + "! What are a", animal1, "and backpacking", animal2
-print "to do? Before you can help", name3, "you'll have to collect the", adj4
-print plural_noun1,"and",adj5, plural_noun2, "that open up the", number1, "worlds connected to"
-print name4 + "'s Lair. There are", number2, plural_noun3, "and", number3, plural_noun4, "in the game,"
-print "along with hundreds of other goodies for you to find."
-```

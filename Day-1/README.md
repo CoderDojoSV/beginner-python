@@ -83,7 +83,7 @@ This is saying, "While the player has guessed wrong, and they have tries, do thi
 
 Some other things to point out:
 * Random is a module that was imported so you will be able to pick a random number
-* if/else branches the code so that it only happens if the condition is met. The code that gets run if the condition is met is under it indented one space.
+* **if/else branches the code so that it only happens if the condition is met. The code that gets run if the condition is met is under it indented one space.**
 * != (check if not equal), == (check if equal)
 
 Let's make some changes! Can you:

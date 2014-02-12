@@ -60,7 +60,7 @@ If you try to type "nine" when it asks for the age, it won't work.  Python doesn
 
 There are two types of variables we'll be using today: strings (things like words, sentences), and integers (whole numbers).  Python thinks "nine" is a string, and can't change it to a number.
 
-** Bonus challenge: In the example above, we added 1 to your age and told you how old you will be in a year. Can you set a new variable years_to_100 that will calculate how many years until you turn 100? Then print out the variable with a message.
+**Bonus challenge: In the example above, we added 1 to your age and told you how old you will be in a year. Can you set a new variable years_to_100 that will calculate how many years until you turn 100? Then print out the variable with a message.
 
 ##Reading and Altering Code - Number Guess Game
 

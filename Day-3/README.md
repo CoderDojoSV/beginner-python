@@ -4,8 +4,6 @@ Grab the starter file [coin flip.py](coin flip.py) and copy it into a new Python
 
 The goal of the program is to simulate flipping a coin 1000 times. It uses a function flip_coin() that is incomplete. It's your job to finish it.
 
-Here is another example program that uses a function: [tax calculator.py](tax calculator.py)
-
 Here is one approach to building your function:
 * Pick a random number between 1 and 2 (where have you done this before?)
 * If the random number is 1 return heads. Else return tails. (where have you done an if/else?)

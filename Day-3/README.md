@@ -14,6 +14,9 @@ This line of code is how you can return heads:
 
 That's it! Test it out and see how many times can your program flip a coin a second.
 
+Extra:  See if you can count how many coin flips it takes before you get 10 heads in a row.
+
+
 ##Simulating Dice Rolls
 
 Grab the starter file [dice rolls.py](dice rolls.py) and copy it into a new Python window.

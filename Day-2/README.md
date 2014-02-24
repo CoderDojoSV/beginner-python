@@ -59,7 +59,7 @@ Look at how the verb list was done.  We can make our own lists of adjectives and
 
 ####Use the function to select random words from each list
 
-You will need 5 variables: adjective1, noun1, verb, adjective2, and noun2.  Remember, we can re-use functions by passing them different information, and they'll send different information back.
+You will need 5 variables: `adjective1`, `noun1`, `verb`, `adjective2`, and `noun2`.  Remember, we can re-use functions by passing them different information, and they'll send different information back.
 
 ####Print the result in a sentence.
 

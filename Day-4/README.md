@@ -10,7 +10,7 @@ We can start out by telling Pygame to open a window.  This will give us a place 
 
     import pygame
     pygame.init()
-    pygame.display.set_mode((640,480))
+    screen = pygame.display.set_mode((640,480))
 
 If you tried running that code, you might notice that it doesn't work too well.  Depending on your computer, it might have frozen, crashed, or opened a window and closed it really fast.  This is because the program doesn't have an *event loop* - a way to tell the program how to keep the window open and respond to things the user does.
 
@@ -18,7 +18,7 @@ Here's what our code looks like with an event loop added:
 
     import pygame
     pygame.init()
-    pygame.display.set_mode((640,480))
+    screen = pygame.display.set_mode((640,480))
     
     running = True
     while running:

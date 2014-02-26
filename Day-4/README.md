@@ -1,6 +1,6 @@
 Note: You cannot use repl.it for this session.  Make sure you've [installed everything](https://github.com/CoderDojoSV/beginner-python/blob/master/Day-1/README.md#installation) before you come to the session.
 
-You can check if you have pygame installed by typing "import pygame" in the shell and hitting enter. If you have it setup, it will not do anything. If you don't, you will get an error.
+You can check if you have pygame installed by typing `import pygame` in the shell and hitting enter. If you have it setup, it will not do anything. If you don't, you will get an error.
 
 ##Starting out with Pygame
 

@@ -4,7 +4,7 @@ You can check if you have pygame installed by typing `import pygame` in the shel
 
 ##Starting out with Pygame
 
-**Do not name your file pygame.py!** IDLE will think your file is the pygame module we are trying to use, which won't work!
+**Do not name your file pygame.py!** IDLE will think your file is the `pygame` module we are trying to use, which won't work!
 
 We can start out by telling Pygame to open a window.  This will give us a place to draw things on the screen.
 
@@ -89,7 +89,7 @@ How can we change the art the program creates?  Try changing the program to draw
 More Challenges:
  - Can you change the program so it also draws circles?
  - How about rectangles?
- - Can you change the program so it adds shapes to the screen one at a time? You can use pygame.time.delay(20) to pause for a bit
+ - Can you change the program so it adds shapes to the screen one at a time? You can use `pygame.time.delay(20)` to pause for a bit
 
 ##Take Home Challenge
 

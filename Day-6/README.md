@@ -98,9 +98,13 @@ How can you add an if so that you don't ever move your paddle off the screen? Or
 
 How can you increase your ball speed 10% every time you hit it? 
 
+####Challenge 7: What should happen when the ball hits the bottom of the screen?
+
 ##Pong
 
-Pong is a 2 player paddle game where you try to hit the ball past the other player's paddle. Can you turn this into a 2 player game? You get a point every time you hit is past the other paddle. It will probably work best if you put the paddles moving up and down on the left and right sides of the screen.
+Pong is a 2 player paddle game where you try to hit the ball past the other player's paddle. Can you turn your game into a 2 player game? You get a point every time you hit it past the other paddle. It will probably work best if you put the paddles moving up and down on the left and right sides of the screen.
+
+Do 'Save as' so that you can save your pong game as a different file than your first paddle game (otherwise it will write over it). 
 
 To allow for the holding down of keys, add the following line of code before your game loop:
 

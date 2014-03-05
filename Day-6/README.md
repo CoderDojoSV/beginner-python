@@ -64,14 +64,15 @@ The other new piece of code is for detecting collisions between the paddle and b
         print "YES"
             
 
-##Possible Next Steps
-
+##Steps to turn it into a game (can be done in any order)
     
-####Make the ball move in both the x and y direction and bounce off the balls
+####Challenge 1: Make the ball move in both the x and y direction and bounce off the balls
 
-See the Day 5 animation projects for how to do it
+Refer to your code for the Day 5 animation projects for how to do it.
 
-####Create a score that increases every time you hit the ball
+####Challenge 2: Make the ball bounce up when it hits the paddle
+
+####Challenge 3: Create a score that increases every time you hit the ball
 
 Here is some example code. The first line creates a font (this only needs to be done once, so not in the game loop). Then it renders it on the screen and blits it (these should happen in the game loop).
 
@@ -79,7 +80,7 @@ Here is some example code. The first line creates a font (this only needs to be 
     label = myfont.render("Some text!", 1, pygame.color.THECOLORS['red'])
     screen.blit(label, (100, 100))
 
-####Make the paddle controlled by the mouse
+####Challenge 4: Make the paddle controlled by the mouse
 
 KEYDOWN isn't the only event supported by Pygame. The following code is an example of how to use the MOUSEMOTION event to move your paddle:
 
@@ -89,11 +90,11 @@ KEYDOWN isn't the only event supported by Pygame. The following code is an examp
 
 Check out http://www.pygame.org/docs/ref/event.html for the complete list of Pygame events. Also see the [Key documentation](http://www.pygame.org/docs/ref/key.html) for the complete list of key codes.
 
-####Don't allow the paddle to go off the screen
+####Challenge 5: Don't allow the paddle to go off the screen
 
 How can you add an if so that you don't ever move your paddle off the screen? Or put another way, if you paddle is off the screen, how can you move it back onto the screen?
 
-####Add a speed boost
+####Challenge 6: Add a speed boost
 
 How can you increase your ball speed 10% every time you hit it? 
 

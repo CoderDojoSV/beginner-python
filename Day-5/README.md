@@ -30,7 +30,7 @@ Can you switch the beach ball's direction?
 Can you add a second image to the animation? Download a small image from the internet ([look, here is one](minecraft.gif) or do a Google image search) and save it in the same location as your Python file. What new variables do you need to create?
 
 ####Challenge #5
-Can you make one of the images travel in both the x and y direction and bounce off the walls?
+Can you make one of the images travel in both the x and y direction and bounce off all four walls?
 
 ####Challenge #6
 Can you make the other image travel left and right, bouncing off the walls and doubling in speed each bounce?

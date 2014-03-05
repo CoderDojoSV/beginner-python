@@ -102,12 +102,25 @@ Can you make another rectangle inside the existing one that has a thinner border
 
 We can combine random and pygame to create art!  Copy the code from the starter file [random drawing.py](random drawing.py).
 
-How can we change the art the program creates?  Try changing the program to draw thicker lines and different numbers of lines.
+How can we change the art the program creates?  
 
-More Challenges:
- - Can you change the program so it also draws circles?
- - How about rectangles?
- - Can you change the program so it adds shapes to the screen one at a time? You can use `pygame.time.delay(20)` to pause for a bit
+####Challenge 1
+Can you make it draw lines with a thickness of 2?
+
+####Challenge 2
+Can you make it draw 100 lines?
+
+####Challenge 3
+Can you add to the program so it also draws circles at random locations with a random color?
+
+####Challenge 4
+Can you make those circles have a random radius between 2 and 10?
+
+####Challenge 5
+Can you add rectangles too?
+
+####Challenge 6
+Can you change the program so it adds shapes to the screen one at a time? You can use `pygame.time.delay(20)` to pause for a bit.
 
 ##Take Home Challenge
 

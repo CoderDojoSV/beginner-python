@@ -2,7 +2,7 @@
 
 Grab the starter file [animation.py](animation.py) and copy it into a new Python window.
 
-Download the image [beach_ball.png](beach_ball.png) and save it in the same location as your Python file.
+Download the image [beach_ball.png](beach_ball.png) and save it in the same location as your Python file (you can right click the image and select "save image as").
 
 Try running it!
 

@@ -37,7 +37,7 @@ Pygame uses a coordinate system to describe where things are on the screen.  (0,
 
 We can use Pygame to draw lines, rectangles, and circles on the screen.
 
-Try changing the numbers to different values.  What happens?
+Start with this code:
 
     import pygame
     pygame.init()
@@ -58,8 +58,20 @@ Try changing the numbers to different values.  What happens?
                 running = False
     pygame.quit()
 
+####Challenge 1
+Can you change the color of all the shapes?
 
-We can also change the colors and borders of shapes.  Take a look at this example, and try to change the colors and borders of the shapes on the screen.
+####Challenge 2
+Can you make the circle twice as big?
+
+####Challenge 3
+Can you make the line go from the bottom left corner of the screen all the way to the top right?
+
+####Challenge 4
+Can you make another rectangle that is short and fat?
+
+
+We can also have shapes that aren't filled in:
 
     import pygame
     pygame.init()
@@ -79,6 +91,9 @@ We can also change the colors and borders of shapes.  Take a look at this exampl
             if event.type == pygame.QUIT:
                 running = False
     pygame.quit()
+
+####Challenge 5
+Can you make another rectangle inside the existing one that has a thinner border?
 
 ##Drawing Random Shapes
 

@@ -70,6 +70,9 @@ Can you make the line go from the bottom left corner of the screen all the way t
 ####Challenge 4
 Can you make another rectangle that is short and fat?
 
+####Challenge 5
+Can you make the line be on top of the other shapes?
+
 
 We can also have shapes that aren't filled in:
 
@@ -97,7 +100,7 @@ Can you make another rectangle inside the existing one that has a thinner border
 
 ##Drawing Random Shapes
 
-We can combine random and pygame to create art!  Take a look at the starter file [random drawing.py](random drawing.py).
+We can combine random and pygame to create art!  Copy the code from the starter file [random drawing.py](random drawing.py).
 
 How can we change the art the program creates?  Try changing the program to draw thicker lines and different numbers of lines.
 

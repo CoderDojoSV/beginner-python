@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((640,480))
 
-def pick_random_color():
+def random_color():
     colorname = random.choice(pygame.color.THECOLORS.keys())
     return pygame.color.THECOLORS[colorname]
 def random_coordinates():
@@ -14,7 +14,7 @@ def random_coordinates():
 screen.fill((0,0,0))
 
 for i in range(50):
-    pygame.draw.line(screen,pick_random_color(),random_coordinates(),random_coordinates())
+    pygame.draw.line(screen,random_color(),random_coordinates(),random_coordinates())
 
 pygame.display.flip()
 

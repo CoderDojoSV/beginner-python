@@ -8,8 +8,4 @@ There are two different ways you can make this game. The first is to have the sn
 
 - Here is an example of the growing version (please turn off your sound): http://playsnake.org/
 
-After creating the paddle game, you should know everything you need to know to create the version that speeds up, which is the easier version. So if you want to  make this game, go for it.
-
-If you are up for a challenge, the following will take you through how to make the growing version of snake. This uses a lot of lists and functions, which were covered earlier.
-
-###Growing Snake
+After creating the paddle game, you should know everything you need to know to create the version that speeds up, which is the easier version. So let's make this game!

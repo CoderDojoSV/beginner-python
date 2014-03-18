@@ -26,7 +26,9 @@ All materials necessary for the course will be provided. If you are interested i
 
 [:rocket: Day 6][5]: Paddle Game
 
-[:rocket: Extras][6]: Extra Projects
+[:rocket: Day 7][6]: Snake Game
+
+[:rocket: Extras][7]: Extra Projects
 
 [0]: Day-1/
 [1]: Day-2/
@@ -34,4 +36,5 @@ All materials necessary for the course will be provided. If you are interested i
 [3]: Day-4/
 [4]: Day-5/
 [5]: Day-6/
-[6]: Extras/
+[6]: Day-7/
+[7]: Extras/

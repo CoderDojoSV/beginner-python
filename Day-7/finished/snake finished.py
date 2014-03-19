@@ -39,6 +39,8 @@ target_color = (255,0,0)
 target_radius = 10
 score = 0
 myfont = pygame.font.SysFont("Arial", 22)
+my_sound = pygame.mixer.Sound('zoop.wav')
+
 
 def new_target_location():
     global target_x, target_y
@@ -93,6 +95,7 @@ while running:
     target_rect = pygame.Rect(target_x-target_radius, target_y-target_radius, target_radius*2,target_radius*2)
     if doRectsOverlap(snake_rect, target_rect):
         new_target_location()
+        my_sound.play()
         score = score + 1
         screen.fill(pygame.color.THECOLORS['white'])
         if score % 2 == 0:

@@ -90,7 +90,7 @@ It is a fun game as it is, but there are always ways that you can make it more f
 
 One idea would be to only speed up the snake every 2 or 3 points instead of every time. This way you can play much longer before hitting the wall.
 
-Can you clean up your code by making the code that moves the snake a function?
+Can you clean up your code by creating a function that moves the snake?
 
 Can you pause for 1 second after you lose so that you can see your score?
 

@@ -2,19 +2,19 @@
 
 Snake is a game where you control an always moving character using the keys. The goal is to hit the target without hitting a wall. If you get the target, you get a point and the target appears somewhere else. The game ends when you hit the wall.
 
-There are two different ways you can make this game. The first is to have the snake speed up every time you get a target. The second is to 
+There are two different ways you can make this game. The first the snake speeds up every time you get a target. The second the snake grows every time you get a target.
 
 - Here is an example of the speeding up version created in Scratch: http://scratch.mit.edu/projects/2627038/
 
 - Here is an example of the growing version (please turn off your sound): http://playsnake.org/
 
-After creating the paddle game, you should know everything you need to know to create the version that speeds up, which is the easier version. So let's make this game!
+After creating the paddle game, you should know everything you need to know to create the version that speeds up. So let's make this game today!
 
 ##Making the Game
 
 We are going to start with a [blank Pygame project](blank pygame project.py). You will notice that it  contains the structure of your past Pygame projects, but no variables or logic to control the game. In fact, nothing is even draw to the screen other than the background!
 
-The reason we are starting from a blank project is so you will be able to make your own games at home after this final week. After creating Snake, you will have the complete picture and can create other simple games independently.
+The reason we are starting from a blank project is so you will be able to make your own games at home after this final week. After creating Snake, you will have the complete picture and can create other simple games independently. The blank pygame project file is a good play to start for any game you create.
 
 It is very important to refer back to your previous projects for examples of how to do things. Learn from the code you have already written!
 
@@ -28,7 +28,9 @@ How can you draw the snake on the screen? Look back at your previous projects fo
 
 ###Part 2 - Snake Movement
 
-The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and its speed? (Hint: this will go in SECTION 1 of the code.) How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) 
+The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and its speed? (Hint: this will go in SECTION 1 of the code.)
+
+How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) 
 
 How can you change the snake's position variables based on your direction variable? (Hint: this will go in SECTION 4 of the code.) You will probably need 4 ifs like this:
 
@@ -47,7 +49,7 @@ How can you draw it to the screen? (Hint: this will go in SECTION 5 of the code.
 
 [Solution](finished/snake part 3.py)
 
-###Part 4 - New Target Location
+###Part 4 - New Target Location Function
 
 Let's create a function for setting a new random target location. Creating a function for this will allow us to keep our game loop code nice and neat. 
 
@@ -86,9 +88,9 @@ Can you also create a score variable and display it as a label? (Hint: this will
 
 ###Finishing Touches
 
-It is a fun game as it is, but there are always ways that you can make it more fun. Do you have any ideas?
+It is a fun game as it is, but there are always ways that you can make it more fun. Do you have any ideas? Here are a few:
 
-One idea would be to only speed up the snake every 2 or 3 points instead of every time. This way you can play much longer before hitting the wall.
+Can you make it so the snake only speeds up every 2 or 3 points instead of every time? This way you can play much longer before hitting the wall.
 
 Can you clean up your code by creating a function that moves the snake?
 

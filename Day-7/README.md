@@ -96,4 +96,6 @@ Can you pause for 1 second after you lose so that you can see your score?
 
 One way to make the game more difficult is to not allow switching to the opposite direction the snake is currently moving. So if the snake is moving right, and you hit the left key, nothing would happen. You would have to hit up or down, then left. Can you add this to your game?
 
+Can you make the screen flash a different color when you hit the target?
+
 [Solution](finished/snake finished.py)

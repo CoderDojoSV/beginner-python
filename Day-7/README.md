@@ -89,6 +89,16 @@ Here is some example code that creates imaginary rectangles around two circles a
 
 How do you know when the snake has hit the wall? You probably will want to do 4 different ifs to check whether the snake has hit each wall. Even better, how can you create a function called snake_hit_wall that returns True if one of those 4 conditions are met and False if not?  (Hint: this will go in SECTION 1 of the code.) 
 
+Here is an example function that only checks for two walls (this number might have to be adjusted): 
+
+	def snake_hit_wall():
+		if snake_y < 20:
+			return True
+		if snake_x < 20:
+			return True
+			
+		return False
+
 How can you use this function to quit the game when the snake hits the wall? (Hint: this will go in SECTION 4 of the code.) 
 
 [Solution](finished/snake part 6.py)
@@ -97,7 +107,12 @@ How can you use this function to quit the game when the snake hits the wall? (Hi
 
 How can you change the snake's speed every time it hits the target? (Hint: this will go in SECTION 4 of the code.) 
 
-Can you also create a score variable and display it as a label? (Hint: this will go in SECTIONs 1, 4, and 5 of the code.) 
+Can you also create a score variable and display it as a label? (Hint: this will go in SECTIONs 1, 4, and 5 of the code.) Here is some example code for creating a label that displays a variable called score:
+
+	myfont = pygame.font.SysFont("Arial", 22)
+	score_label = myfont.render(str(score), 1, pygame.color.THECOLORS['white'])
+	screen.blit(score_label, (5, 10))
+
 
 [Solution](finished/snake part 7.py)
 

@@ -20,7 +20,7 @@ It is very important to refer back to your previous projects for examples of how
 
 ###Part 1 - The Snake
 
-What variables do we need to create for the snake? How can the computer remember its size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.)
+What variables do we need to create for the snake? How can the computer remember its size, position (both x and y), and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.)
 
 How can you draw the snake on the screen? Look back at your previous projects for an example of how to draw a circle. (Hint: this will go in SECTION 5 of the code.)
 
@@ -43,7 +43,7 @@ You can also delete SECTION 2 from your code - there are not any mouse controls 
 
 ###Part 3 - The Target
 
-What variables do we need to create for the target? How can the computer remember its size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.) 
+What variables do we need to create for the target? How can the computer remember its size, position (both x and y), and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.) 
 
 How can you draw it to the screen? (Hint: this will go in SECTION 5 of the code.) 
 

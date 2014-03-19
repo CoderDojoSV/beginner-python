@@ -20,13 +20,14 @@ def isPointInsideRect(x, y, rect):
     else:
         return False
 
-import pygame, sys
+import pygame, sys, random
 pygame.init()
 screen = pygame.display.set_mode([640,480])
 black = [0, 0, 0]
 
 #the game's variables
-#YOUR CODE HERE
+#SECTION 1 - YOUR CODE HERE FOR CREATING VARIABLES AND FUNCTIONS
+
 
 running = True
 #game loop
@@ -37,11 +38,11 @@ while running:
 
         if event.type == pygame.MOUSEMOTION:
             print "mouse moved"
-            #YOUR CODE HERE
+            #SECTION 2 - YOUR CODE HERE FOR WHEN THE MOUSE IS MOVED
 
         if event.type == pygame.KEYDOWN:
             print "key pressed"
-            #YOUR CODE HERE
+            #SECTION 3 - YOUR CODE HERE FOR WHEN A KEY IS PRESSED
 
     #pause for 20 milliseconds
     pygame.time.delay(20)
@@ -49,11 +50,10 @@ while running:
     screen.fill(black)
 
     #logic for moving everything in the game and checking collisions
-    #YOUR CODE HERE
+    #SECTION 4 - YOUR CODE HERE FOR CHANGING VARIABLES AND CHECKING FOR COLLISIONS
     
-
     #draw everything on the screen
-    #YOUR CODE HERE
+    #SECTION 5 - YOUR CODE HERE FOR DRAWING EVERYTHING
     
     #update the entire display
     pygame.display.update()

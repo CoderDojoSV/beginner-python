@@ -28,9 +28,9 @@ How can you draw the snake on the screen? Look back at your previous projects fo
 
 The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and it's speed? (Hint: this will go in SECTION 1 of the code.) How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) 
 
-How can you change the snake's position variables based on your direction variable? (Hint: this will go in SECTION 4 of the code.) You will probably need 4 ifs like this: 
+How can you change the snake's position variables based on your direction variable? (Hint: this will go in SECTION 4 of the code.) You will probably need 4 ifs like this:
 	if direction == "right":
-        	snake_x = snake_x + speed
+		snake_x = snake_x + speed
         
 You can also delete SECTION 2 from your code - there are not any mouse controls in this game.
 

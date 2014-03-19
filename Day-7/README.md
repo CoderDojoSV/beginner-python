@@ -96,7 +96,8 @@ Here is an example function that only checks for two walls (this number might ha
 			return True
 		if snake_x < 20:
 			return True
-			
+		
+		#if the function hasn't already returned True, it should return False	
 		return False
 
 How can you use this function to quit the game when the snake hits the wall? (Hint: this will go in SECTION 4 of the code.) 

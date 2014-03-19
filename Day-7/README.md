@@ -75,6 +75,8 @@ Any time we want to change one of the game's variables inside of a function, the
 
 How can you tell when the snake has hit the target? Refer back to your paddle game to see an example of creating imaginary rectangles around a circle (your ball in the paddle game) and using the provided doRectsOverlap function. How can you call your new target location function when this happens?  (Hint: this will go in SECTION 4 of the code.) 
 
+Here is some example code that creates imaginary rectangles around two circles and checks if they are overlapping:
+
 	circle1_rect = pygame.Rect(circle1_x-circle1_size, circle1_y-circle1_size, circle1_size*2,circle1_size*2)
 	circle2_rect = pygame.Rect(circle2_x-circle2_size, circle2_y-circle2_size, circle2_size*2,circle2_size*2)
 	#see if the rectangles overlap

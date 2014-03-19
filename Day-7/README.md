@@ -100,4 +100,6 @@ One way to make the game more difficult is to not allow switching to the opposit
 
 Can you make the screen flash a different color when you hit the target?
 
+Can you make a bigger screen size?
+
 [Solution](finished/snake finished.py)

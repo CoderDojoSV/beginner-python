@@ -20,7 +20,7 @@ It is very important to refer back to your previous projects for examples of how
 
 ###Part 1 - The Snake
 
-What variables do we need to create for the snake? How can the computer remember it's size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.)
+What variables do we need to create for the snake? How can the computer remember its size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.)
 
 How can you draw the snake on the screen? Look back at your previous projects for an example of how to draw a circle. (Hint: this will go in SECTION 5 of the code.)
 
@@ -28,7 +28,7 @@ How can you draw the snake on the screen? Look back at your previous projects fo
 
 ###Part 2 - Snake Movement
 
-The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and it's speed? (Hint: this will go in SECTION 1 of the code.) How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) 
+The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and its speed? (Hint: this will go in SECTION 1 of the code.) How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) 
 
 How can you change the snake's position variables based on your direction variable? (Hint: this will go in SECTION 4 of the code.) You will probably need 4 ifs like this:
 
@@ -41,7 +41,7 @@ You can also delete SECTION 2 from your code - there are not any mouse controls 
 
 ###Part 3 - The Target
 
-What variables do we need to create for the target? How can the computer remember it's size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.) 
+What variables do we need to create for the target? How can the computer remember its size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.) 
 
 How can you draw it to the screen? (Hint: this will go in SECTION 5 of the code.) 
 

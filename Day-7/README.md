@@ -24,13 +24,20 @@ What variables do we need to create for the snake? How can the computer remember
 
 How can you draw the snake on the screen? Look back at your previous projects for an example of how to draw a circle. (Hint: this will go in SECTION 5 of the code.)
 
+Here is an example line of code that draws a circle using variables:
+
+	pygame.draw.circle(screen, circl_color, [circle_x, circle_y], circle_size)
+
 [Solution](finished/snake part 1.py)
 
 ###Part 2 - Snake Movement
 
 The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and its speed? (Hint: this will go in SECTION 1 of the code.)
 
-How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) 
+How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) Here is an example line of code from the paddle game: 
+
+	if event.key == pygame.K_LEFT:
+                paddle_x = paddle_x - paddle_speed
 
 How can you change the snake's position variables based on your direction variable? (Hint: this will go in SECTION 4 of the code.) You will probably need 4 ifs like this:
 
@@ -67,6 +74,12 @@ Any time we want to change one of the game's variables inside of a function, the
 ###Part 5 - Detecting Target Collisions
 
 How can you tell when the snake has hit the target? Refer back to your paddle game to see an example of creating imaginary rectangles around a circle (your ball in the paddle game) and using the provided doRectsOverlap function. How can you call your new target location function when this happens?  (Hint: this will go in SECTION 4 of the code.) 
+
+	circle1_rect = pygame.Rect(circle1_x-circle1_size, circle1_y-circle1_size, circle1_size*2,circle1_size*2)
+	circle2_rect = pygame.Rect(circle2_x-circle2_size, circle2_y-circle2_size, circle2_size*2,circle2_size*2)
+	#see if the rectangles overlap
+	if doRectsOverlap(circle1_rect, circle2_rect):
+        	print "YES"
 
 [Solution](finished/snake part 5.py)
 

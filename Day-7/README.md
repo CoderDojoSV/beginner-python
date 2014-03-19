@@ -20,31 +20,31 @@ It is very important to refer back to your previous projects for examples of how
 
 ###Part 1 - The Snake
 
-What variables do we need to create for the snake? How can the computer remember it's size, position, and color? What would be good variable names for these?
+What variables do we need to create for the snake? How can the computer remember it's size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.)
 
-How can you draw the snake on the screen? Look back at your previous projects for an example of how to draw a circle.
+How can you draw the snake on the screen? Look back at your previous projects for an example of how to draw a circle. (Hint: this will go in SECTION 5 of the code.)
 
 ###Part 2 - Snake Movement
 
-The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and it's speed? How can you set the direction variable when the arrow keys are hit?
+The snake is like an animation that either moves up, down, left, or right. How can the computer remember which way the snake is moving and it's speed? (Hint: this will go in SECTION 1 of the code.) How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) 
 
-How can you change the snake's position variables based on your direction variable?
-
-Hint: you will probably need 4 ifs like this: 
+How can you change the snake's position variables based on your direction variable? (Hint: this will go in SECTION 4 of the code.) You will probably need 4 ifs like this: 
 	if direction == "right":
-        snake_x = snake_x + speed
+        	snake_x = snake_x + speed
+        
+You can also delete SECTION 2 from your code - there are not any mouse controls in this game.
 
 ###Part 3 - The Target
 
-What variables do we need to create for the target? How can the computer remember it's size, position, and color? What would be good variable names for these?
+What variables do we need to create for the target? How can the computer remember it's size, position, and color? What would be good variable names for these? (Hint: this will go in SECTION 1 of the code.) 
 
-How can you draw it to the screen?
+How can you draw it to the screen? (Hint: this will go in SECTION 5 of the code.) 
 
 ###Part 4 - New Target Location
 
 Let's create a function for setting a new random target location. Creating a function for this will allow us to keep our game loop code nice and neat. 
 
-Somewhere above the game loop put the following code: 
+In SECTION 1 put the following code: 
 
 	def new_target_location():
 	    global target_x, target_y
@@ -55,17 +55,19 @@ Any time we want to change one of the game's variables inside of a function, the
 
 ###Part 5 - Detecting Target Collisions
 
-How can you tell when the snake has hit the target? Refer back to your paddle game to see an example of creating imaginary rectangles around a circle (your ball in the paddle game) and using the provided doRectsOverlap function. How can you call your new target location function when this happens?
+How can you tell when the snake has hit the target? Refer back to your paddle game to see an example of creating imaginary rectangles around a circle (your ball in the paddle game) and using the provided doRectsOverlap function. How can you call your new target location function when this happens?  (Hint: this will go in SECTION 4 of the code.) 
 
 ###Part 6 - Detecting Wall Collisions
 
-How do you know when the snake has hit the wall? You probably will want to do 4 different ifs to check whether the snake has hit each wall. Even better, how can you create a function called snake_hit_wall that returns True if one of those 4 conditions are met and False if not?
+How do you know when the snake has hit the wall? You probably will want to do 4 different ifs to check whether the snake has hit each wall. Even better, how can you create a function called snake_hit_wall that returns True if one of those 4 conditions are met and False if not?  (Hint: this will go in SECTION 1 of the code.) 
 
-How can you use this function to quit the game when the snake hits the wall?
+How can you use this function to quit the game when the snake hits the wall? (Hint: this will go in SECTION 4 of the code.) 
 
 ###Part 7 - Speeding Up and Score
 
-How can you change the snake's speed every time it hits the target? Can you also create a score variable and display it as a label?
+How can you change the snake's speed every time it hits the target? (Hint: this will go in SECTION 4 of the code.) 
+
+Can you also create a score variable and display it as a label? (Hint: this will go in SECTIONs 1, 4, and 5 of the code.) 
 
 ###Finishing Touches
 

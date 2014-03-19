@@ -94,6 +94,7 @@ while running:
     if doRectsOverlap(snake_rect, target_rect):
         new_target_location()
         score = score + 1
+        screen.fill(pygame.color.THECOLORS['white'])
         if score % 2 == 0:
             speed = speed + 1
 

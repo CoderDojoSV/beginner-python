@@ -52,7 +52,7 @@ In SECTION 1 put the following code:
 	    target_x = random.randint(30, 610)
 	    target_y = random.randint(30, 450)
 
-Any time we want to change one of the game's variables inside of a function, the very first line must tell it which variables will be changed by using the "global" keyword. Otherwise this function would have created a new variable called target_x and target_y that would only exist within the function (not in the game loop). 
+Any time we want to change one of the game's variables inside of a function, the very first line must tell it which variables will be changed by using the "global" keyword. Otherwise this function would have created a new variable called target_x and target_y that would only exist within the function (not modifying the variable in the game loop). 
 
 ###Part 5 - Detecting Target Collisions
 

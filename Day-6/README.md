@@ -23,7 +23,7 @@ There are two functions provided called doRectsOverlap and isPointInsideRect. Th
         else:
             return False
             
-There is also a whole section of code that creats all the variables used by the game. If we want to create more variables or change their starter values, this would be the place.
+There is also a whole section of code that creates all the variables used by the game. If we want to create more variables or change their starter values, this would be the place.
 
     #the game's variables
     ball_x = 50
@@ -66,7 +66,7 @@ The other new piece of code is for detecting collisions between the paddle and b
 
 ##Steps to turn it into a game (can be done in any order)
     
-####Challenge 1: Make the ball move in both the x and y direction and bounce off the balls
+####Challenge 1: Make the ball move in both the x and y direction and bounce off the walls
 
 Refer to your code for the Day 5 animation projects for how to do it.
 

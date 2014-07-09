@@ -80,7 +80,7 @@ Here is some example code. The first line creates a font (this only needs to be 
     label = myfont.render("Some text!", 1, pygame.color.THECOLORS['red'])
     screen.blit(label, (100, 100))
 
-####Challenge 4: Make the paddle controlled by the mouse
+####Challenge 4: Make the paddle be controlled by the mouse
 
 KEYDOWN isn't the only event supported by Pygame. The following code is an example of how to use the MOUSEMOTION event to move your paddle:
 

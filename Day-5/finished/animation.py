@@ -12,7 +12,7 @@ pygame.init()
 screen = pygame.display.set_mode([640,480])
 white = [255, 255, 255]
 
-#loads the beach ball image (must be saved in the same place as this file
+#loads the beach ball image (must be saved in the same place as this file)
 my_ball = pygame.image.load('beach_ball.png')
 my_minecraft = pygame.image.load('minecraft.gif')
 #set variables to use in our program

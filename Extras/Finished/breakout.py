@@ -11,8 +11,7 @@ class Brick(pygame.sprite.Sprite):
         
         if Brick.image is None:
                 # This is the first time this class has been
-                # instantiated. So, load the image for this and
-                # all subsequence green instances.
+                # instantiated. So, load the image
                 Brick.image = pygame.image.load("brick.png")
         self.image = Brick.image
 

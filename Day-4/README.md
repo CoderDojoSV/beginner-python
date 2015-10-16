@@ -8,24 +8,28 @@ You can check if you have pygame installed by typing `import pygame` in the shel
 
 We can start out by telling Pygame to open a window.  This will give us a place to draw things on the screen.
 
-    import pygame
-    pygame.init()
-    screen = pygame.display.set_mode((640,480))
+```python
+import pygame
+pygame.init()
+screen = pygame.display.set_mode((640,480))
+```
 
 If you tried running that code, you might notice that it doesn't work too well.  Depending on your computer, it might have frozen, crashed, or opened a window and closed it really fast.  This is because the program doesn't have an *event loop* - a way to tell the program how to keep the window open and respond to things the user does.
 
 Here's what our code looks like with an event loop added:
 
-    import pygame
-    pygame.init()
-    screen = pygame.display.set_mode((640,480))
+```python
+import pygame
+pygame.init()
+screen = pygame.display.set_mode((640,480))
     
-    running = True
-    while running:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-    pygame.quit()
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+pygame.quit()
+```
 
 ##The coordinate grid
 
@@ -39,24 +43,26 @@ We can use Pygame to draw lines, rectangles, and circles on the screen.
 
 Start with this code:
 
-    import pygame
-    pygame.init()
-    screen = pygame.display.set_mode((640,480))
+```python
+import pygame
+pygame.init()
+screen = pygame.display.set_mode((640,480))
 
-    screen.fill((0,0,0))
+screen.fill((0,0,0))
 
-    pygame.draw.line(screen,pygame.color.THECOLORS['white'],(500,450),(400,300))
-    pygame.draw.circle(screen,pygame.color.THECOLORS['white'],(300,300),50)
-    pygame.draw.rect(screen,pygame.color.THECOLORS['white'],(200,100,50,100))
+pygame.draw.line(screen,pygame.color.THECOLORS['white'],(500,450),(400,300))
+pygame.draw.circle(screen,pygame.color.THECOLORS['white'],(300,300),50)
+pygame.draw.rect(screen,pygame.color.THECOLORS['white'],(200,100,50,100))
 
-    pygame.display.flip()
+pygame.display.flip()
 
-    running = True
-    while running:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-    pygame.quit()
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+pygame.quit()
+```
 
 ####Challenge 1
 Can you change the color of all the shapes?
@@ -76,24 +82,26 @@ Can you make the line be on top of the other shapes?
 
 We can also have shapes that aren't filled in:
 
-    import pygame
-    pygame.init()
-    screen = pygame.display.set_mode((640,480))
+```python
+import pygame
+pygame.init()
+screen = pygame.display.set_mode((640,480))
 
-    screen.fill((0,0,0))
+screen.fill((0,0,0))
 
-    pygame.draw.line(screen,pygame.color.THECOLORS['red'],(500,450),(400,300),6)
-    pygame.draw.circle(screen,pygame.color.THECOLORS['blue'],(300,300),50,4)
-    pygame.draw.rect(screen,pygame.color.THECOLORS['green'],(200,100,50,100),8)
+pygame.draw.line(screen,pygame.color.THECOLORS['red'],(500,450),(400,300),6)
+pygame.draw.circle(screen,pygame.color.THECOLORS['blue'],(300,300),50,4)
+pygame.draw.rect(screen,pygame.color.THECOLORS['green'],(200,100,50,100),8)
 
-    pygame.display.flip()
+pygame.display.flip()
 
-    running = True
-    while running:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-    pygame.quit()
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+pygame.quit()
+```
 
 ####Challenge 5
 Can you make another rectangle inside the existing one that has a thinner border?

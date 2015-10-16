@@ -26,7 +26,9 @@ How can you draw the snake on the screen? Look back at your previous projects fo
 
 Here is an example line of code that draws a circle using variables:
 
-	pygame.draw.circle(screen, circl_color, [circle_x, circle_y], circle_size)
+```python
+pygame.draw.circle(screen, circl_color, [circle_x, circle_y], circle_size)
+```
 
 [Solution](finished/snake part 1.py)
 
@@ -36,13 +38,17 @@ The snake is like an animation that either moves up, down, left, or right. How c
 
 How can you set the direction variable when the arrow keys are hit? (Hint: this will go in SECTION 3 of the code.) Here is an example line of code from the paddle game: 
 
-	if event.key == pygame.K_LEFT:
-                paddle_x = paddle_x - paddle_speed
+```python
+if event.key == pygame.K_LEFT:
+        paddle_x = paddle_x - paddle_speed
+```
 
 How can you change the snake's position variables based on your direction variable? (Hint: this will go in SECTION 4 of the code.) You will probably need 4 ifs like this:
 
-	if direction == "right":
-		snake_x = snake_x + speed
+```python
+if direction == "right":
+	snake_x = snake_x + speed
+```
         
 You can also delete SECTION 2 from your code - there are not any mouse controls in this game.
 
@@ -62,10 +68,12 @@ Let's create a function for setting a new random target location. Creating a fun
 
 In SECTION 1 put the following code: 
 
-	def new_target_location():
-	    global target_x, target_y
-	    target_x = random.randint(30, 610)
-	    target_y = random.randint(30, 450)
+```python
+def new_target_location():
+	global target_x, target_y
+	target_x = random.randint(30, 610)
+	target_y = random.randint(30, 450)
+```
 
 Any time we want to change one of the game's variables inside of a function, the very first line must tell it which variables will be changed by using the "global" keyword. Otherwise this function would have created a new variable called target_x and target_y that would only exist within the function (not modifying the variable in the game loop). 
 
@@ -77,11 +85,13 @@ How can you tell when the snake has hit the target? Refer back to your paddle ga
 
 Here is some example code that creates imaginary rectangles around two circles and checks if they are overlapping:
 
-	circle1_rect = pygame.Rect(circle1_x-circle1_size, circle1_y-circle1_size, circle1_size*2,circle1_size*2)
-	circle2_rect = pygame.Rect(circle2_x-circle2_size, circle2_y-circle2_size, circle2_size*2,circle2_size*2)
-	#see if the rectangles overlap
-	if doRectsOverlap(circle1_rect, circle2_rect):
-        	print "YES"
+```python
+circle1_rect = pygame.Rect(circle1_x-circle1_size, circle1_y-circle1_size, circle1_size*2,circle1_size*2)
+circle2_rect = pygame.Rect(circle2_x-circle2_size, circle2_y-circle2_size, circle2_size*2,circle2_size*2)
+#see if the rectangles overlap
+if doRectsOverlap(circle1_rect, circle2_rect):
+        print "YES"
+```
 
 [Solution](finished/snake part 5.py)
 
@@ -91,14 +101,16 @@ How do you know when the snake has hit the wall? You probably will want to do 4 
 
 Here is an example function that only checks for two walls (this number might have to be adjusted): 
 
-	def snake_hit_wall():
-		if snake_y < 20:
-			return True
-		if snake_x < 20:
-			return True
-		
-		#if the function hasn't already returned True, it should return False	
-		return False
+```python
+def snake_hit_wall():
+	if snake_y < 20:
+		return True
+	if snake_x < 20:
+		return True
+	
+	#if the function hasn't already returned True, it should return False	
+	return False
+```
 
 How can you use this function to quit the game when the snake hits the wall? (Hint: this will go in SECTION 4 of the code.) 
 
@@ -110,10 +122,11 @@ How can you change the snake's speed every time it hits the target? (Hint: this 
 
 Can you also create a score variable and display it as a label? (Hint: this will go in SECTIONs 1, 4, and 5 of the code.) Here is some example code for creating a label that displays a variable called score:
 
-	myfont = pygame.font.SysFont("Arial", 22)
-	score_label = myfont.render(str(score), 1, pygame.color.THECOLORS['white'])
-	screen.blit(score_label, (5, 10))
-
+```python
+myfont = pygame.font.SysFont("Arial", 22)
+score_label = myfont.render(str(score), 1, pygame.color.THECOLORS['white'])
+screen.blit(score_label, (5, 10))
+```
 
 [Solution](finished/snake part 7.py)
 

@@ -8,6 +8,7 @@ The hailstone pattern is a cool number pattern that for any positive whole numbe
 
 Here is an example that starts with the number 7:
 
+```
     7
     22
     11
@@ -25,6 +26,7 @@ Here is an example that starts with the number 7:
     4
     2
     1
+```
     
 It took 16 steps!
 
@@ -32,7 +34,9 @@ How can you make this into a program? It should ask the user to enter a number, 
 
 This will require one thing that you likely haven't seen before: mod (%). Mod can be used to determine if a number is even or odd. Mod is similar to division, but just worries about the remainder. So if you do 7 mod 2, it is asking what the remainder is when you divide 7 by 2. The answer is 1. This is how you can check if a variable called 'number' is even:
 
-    if number % 2 == 0:
+```python
+if number % 2 == 0:
+```
 
 What happens when you enter a really big number? How many steps does it take?
 

@@ -10,13 +10,13 @@ Open the starter file: [silly sentence generator.py](silly sentence generator.py
 
 Up until now, we've stored things in one variable at a time.  A list is a way to collect multiple values in one variable.  Let's make a list:
 
-```
+```python
 >>> grocery_list = ["apples","bananas","a pet chicken"]
 ```
 
 We can look at specific items in the list with an *index*, and indexes start from zero.
 
-```
+```python
 >>> print grocery_list[0]
 apples
 ```
@@ -25,7 +25,7 @@ apples
 
 We can use the random module to create random numbers:
 
-```
+```python
 import random
 random.randint(0,5)
 ```
@@ -35,7 +35,7 @@ A module is something extra in Python that lets you go beyond what Python lets y
 ####The `random_word` Function
 The `random_word` function picks a random index from 0 to the last item in the list.  Then, it finds the word with that index, and hands it back:
 
-```
+```python
 #this function is given a list of words and selects one at random
 def random_word(list_of_words):
     number_of_words = len(list_of_words) #get the length of the words list
@@ -68,7 +68,7 @@ Be sure to insert the word "the" in the right places.  What sentences can you ma
 ####`random.choice`
 We just wrote a function to pick a random word from a list of words.  However, the `random` module already gives us a way to do this.  We can use `random.choice` to write a new version of `random_word`:
 
-```
+```python
 def random_word2(list_of_words):
     return random.choice(list_of_words)
 ```

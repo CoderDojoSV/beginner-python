@@ -89,22 +89,24 @@ If you want to make more complex games, there are some additional concepts that 
 
 In order for a function to change a variable, you must use the 'global' keyword to let Python know you are using the variable already created outside of the function rather than creating a new one. The [pong finished with function.py](Finished/pong finished with function.py) example uses the following function to reset the ball:
 
-    def reset_ball(side):
-        global ball_x
-        global ball_speed_x
-        global ball_speed_y
-        global score1
-        global score2
+```python
+def reset_ball(side):
+    global ball_x
+    global ball_speed_x
+    global ball_speed_y
+    global score1
+    global score2
     
-        ball_speed_y = 5
-        if side == "left":
-            ball_speed_x = -3
-            score2 = score2 + 1
-            ball_x = 600
-        else:
-            ball_speed_x = 3
-            score1 = score1 + 1
-            ball_x = 40
+    ball_speed_y = 5
+    if side == "left":
+        ball_speed_x = -3
+        score2 = score2 + 1
+        ball_x = 600
+    else:
+        ball_speed_x = 3
+        score1 = score1 + 1
+        ball_x = 40
+```
 
 Functions are a powerful way to start creating more impressive games. 
 

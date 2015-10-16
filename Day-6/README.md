@@ -92,7 +92,7 @@ screen.blit(label, (100, 100))
 
 KEYDOWN isn't the only event supported by Pygame. The following code is an example of how to use the MOUSEMOTION event to move your paddle:
 
-```
+```python
 if event.type == pygame.MOUSEMOTION:
     coordinates = pygame.mouse.get_pos() #gives (x,y) coordinates
     paddle_x = coordinates[0] #sets the paddle_x variable to the first item in coordinates

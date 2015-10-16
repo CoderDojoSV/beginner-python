@@ -8,10 +8,12 @@ Try running it!
 
 If you receive the error: 
 
-    Traceback (most recent call last):
-      File "C:/Python25/pygame tester.py", line 16, in <module>
-        my_ball = pygame.image.load('beach_ball.png')
-    error: Couldn't open beach_ball.png
+```python
+Traceback (most recent call last):
+  File "C:/Python25/pygame tester.py", line 16, in <module>
+    my_ball = pygame.image.load('beach_ball.png')
+error: Couldn't open beach_ball.png
+```
     
 Then your image file was not saved in the correct location!
 

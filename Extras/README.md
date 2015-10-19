@@ -8,23 +8,25 @@ The hailstone pattern is a cool number pattern that for any positive whole numbe
 
 Here is an example that starts with the number 7:
 
-    7
-    22
-    11
-    34
-    17
-    52
-    26
-    13
-    40
-    20
-    10
-    5
-    16
-    8
-    4
-    2
-    1
+```
+7
+22
+11
+34
+17
+52
+26
+13
+40
+20
+10
+5
+16
+8
+4
+2
+1
+```
     
 It took 16 steps!
 
@@ -32,7 +34,9 @@ How can you make this into a program? It should ask the user to enter a number, 
 
 This will require one thing that you likely haven't seen before: mod (%). Mod can be used to determine if a number is even or odd. Mod is similar to division, but just worries about the remainder. So if you do 7 mod 2, it is asking what the remainder is when you divide 7 by 2. The answer is 1. This is how you can check if a variable called 'number' is even:
 
-    if number % 2 == 0:
+```python
+if number % 2 == 0:
+```
 
 What happens when you enter a really big number? How many steps does it take?
 
@@ -61,17 +65,9 @@ Chapter 9 (page 132) in the book shows how to create the letter and word guessin
 
 Chapter 11 (page 217) in the book shows how to create a number guessing game called Bagels. Here is the description of the game from the book:
 
-        Bagels is a simple game you can play with a friend. Your friend thinks up a random 3-digit number with no
-        repeating digits, and you try to guess what the number is. After each guess, your friend gives you clues on 
-        how close your guess was. If the friend tells you “bagels”, that means that none of the three digits you 
-        guessed is in the secret number. If your friend tells you “pico”, then one of the digits is in the secret
-        number, but your guess has the digit in the wrong place. If your friend tells you “fermi”, then your guess 
-        has a correct digit in the correct place. Of course, even if you get a pico or fermi clue, you still don't 
-        know which digit in your guess is the correct one.
+>Bagels is a simple game you can play with a friend. Your friend thinks up a random 3-digit number with no repeating digits,and you try to guess what the number is. After each guess, your friend gives you clues on how close your guess was. If the friend tells you “bagels”, that means that none of the three digits you guessed is in the secret number. If your friend tells you “pico”, then one of the digits is in the secret number, but your guess has the digit in the wrong place. If your friend tells you “fermi”, then your guess has a correct digit in the correct place. Of course, even if you get a pico or fermi clue, you still don't know which digit in your guess is the correct one.
 
-        You can also get multiple clues after each guess. Say the secret number is 456, and your guess is 546. The 
-        clue you get from your friend would be “fermi pico pico” because one digit is correct and in the correct 
-        place (the digit 6), and two digits are in the secret number but in the wrong place (the digits 4 and 5). 
+>You can also get multiple clues after each guess. Say the secret number is 456, and your guess is 546. The clue you get from your friend would be “fermi pico pico” because one digit is correct and in the correct place (the digit 6), and two digits are in the secret number but in the wrong place (the digits 4 and 5). 
 
 [Here is the online pdf version of the book](http://inventwithpython.com/IYOCGwP_book1.pdf). 
 
@@ -93,22 +89,24 @@ If you want to make more complex games, there are some additional concepts that 
 
 In order for a function to change a variable, you must use the 'global' keyword to let Python know you are using the variable already created outside of the function rather than creating a new one. The [pong finished with function.py](Finished/pong finished with function.py) example uses the following function to reset the ball:
 
-    def reset_ball(side):
-        global ball_x
-        global ball_speed_x
-        global ball_speed_y
-        global score1
-        global score2
+```python
+def reset_ball(side):
+    global ball_x
+    global ball_speed_x
+    global ball_speed_y
+    global score1
+    global score2
     
-        ball_speed_y = 5
-        if side == "left":
-            ball_speed_x = -3
-            score2 = score2 + 1
-            ball_x = 600
-        else:
-            ball_speed_x = 3
-            score1 = score1 + 1
-            ball_x = 40
+    ball_speed_y = 5
+    if side == "left":
+        ball_speed_x = -3
+        score2 = score2 + 1
+        ball_x = 600
+    else:
+        ball_speed_x = 3
+        score1 = score1 + 1
+        ball_x = 40
+```
 
 Functions are a powerful way to start creating more impressive games. 
 

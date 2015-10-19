@@ -11,7 +11,9 @@ Open Python IDLE. This opens the output window - we will write our code in a new
 
 In the new window, type this to print something:
 
-    print "hello world"
+```python
+print "hello world"
+```
 
 Save the project as a .py extension (you can hit CTRL/CMD + S to save). Hit F5 to run your program.
 
@@ -19,48 +21,56 @@ Create your first variable and print it.  In computer language, a variable is wh
 
 Below that is a `print` statement that shows you how to print a variable.
 
-    print "hello world"
-    name = "Brian"
-    print "my name is", name
+```python
+print "hello world"
+name = "Brian"
+print "my name is", name
+```
 
 The next task is to ask the user for something.  That's what `raw_input` does.
 
 We can have the user type in something and store it in a variable.
 
-    print "hello world"
-    name = "Brian"
-    print "my name is", name
+```python
+print "hello world"
+name = "Brian"
+print "my name is", name
     
-    your_name = raw_input("What is your name?")
-    
+your_name = raw_input("What is your name?")
+```
+
 If you run this, you'll see that there's no space between the `?` and the user's input.  We can fix this by adding a space in.
 
 When you use `raw_input`, it stores what the user typed in in a variable.  We can print the info the user typed in:
 
-    print "hello world"
-    name = "Brian"
-    print "my name is", name
+```python
+print "hello world"
+name = "Brian"
+print "my name is", name
     
-    your_name = raw_input("What is your name? ")
-    print "your name is", your_name
-    
+your_name = raw_input("What is your name? ")
+print "your name is", your_name
+```
+
 You can use `raw_input` to ask the user for strings - things like names and sentences.  
 If you use `input`, Python will try to change what the user typed into a number.
 
-    print "hello world"
-    name = "Brian"
-    print "my name is", name
+```python
+print "hello world"
+name = "Brian"
+print "my name is", name
     
-    your_name = raw_input("What is your name? ")
-    print "your name is", your_name
-    your_age = input("How old are you? ")
-    print "in a year you will be", your_age+1, "years old"
+your_name = raw_input("What is your name? ")
+print "your name is", your_name
+your_age = input("How old are you? ")
+print "in a year you will be", your_age+1, "years old"
+```
 
 If you try to type "nine" when it asks for the age, it won't work.  Python doesn't know what "nine" is, it only know the digit "9".
 
 There are two types of variables we'll be using today: strings (things like words, sentences), and integers (whole numbers).  Python thinks "nine" is a string, and can't change it to a number.
 
-**Bonus challenge: In the example above, we added 1 to your age and told you how old you will be in a year. Can you set a new variable years_to_100 that will calculate how many years until you turn 100? Then print out the variable with a message.
+**Bonus challenge**: In the example above, we added 1 to your age and told you how old you will be in a year. Can you set a new variable years_to_100 that will calculate how many years until you turn 100? Then print out the variable with a message.
 
 ##Reading and Altering Code - Number Guess Game
 
@@ -79,8 +89,10 @@ Look at those comments, with the `#` before them.  This doesn't mean anything to
  
 Look at this while:
  
-    while guess != secret and tries < 6:
-    
+```python
+while guess != secret and tries < 6:
+```
+
 This is saying, "While the player has guessed wrong, and they have tries, do this over and over again."  **After the `while`, several lines of code are indented (with the Tab key), which indicate which code gets repeated. Indents matter in Python!**
 
 Some other things to point out:
@@ -112,7 +124,9 @@ We'll be making a lot more changes to this program to get it to do what we want.
 
     You could use a for loop that repeats code a specific number of times. This line will repeat the indented code 10 times:
 
-        for num in range(0,10):
+    ```python
+    for num in range(0,10):
+    ```
 
     You could also use a while loop and count yourself. See how the number guess game counted the number of tries.
     

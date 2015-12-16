@@ -48,7 +48,7 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((640,480))
 
-screen.fill((0,0,0))
+screen.fill(pygame.color.THECOLORS['black'])
 
 pygame.draw.line(screen,pygame.color.THECOLORS['white'],(500,450),(400,300))
 pygame.draw.circle(screen,pygame.color.THECOLORS['white'],(300,300),50)
@@ -87,7 +87,7 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((640,480))
 
-screen.fill((0,0,0))
+screen.fill(pygame.color.THECOLORS['black'])
 
 pygame.draw.line(screen,pygame.color.THECOLORS['red'],(500,450),(400,300),6)
 pygame.draw.circle(screen,pygame.color.THECOLORS['blue'],(300,300),50,4)

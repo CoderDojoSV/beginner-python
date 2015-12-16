@@ -44,9 +44,11 @@ We can use Pygame to draw lines, rectangles, and circles on the screen.
 Start with this code:
 
 ```python
+#setup
 import pygame
 pygame.init()
 screen = pygame.display.set_mode((640,480))
+
 
 screen.fill(pygame.color.THECOLORS['black'])
 
@@ -56,6 +58,8 @@ pygame.draw.rect(screen,pygame.color.THECOLORS['white'],(200,100,50,100))
 
 pygame.display.flip()
 
+
+#closing the window
 running = True
 while running:
     for event in pygame.event.get():
@@ -83,9 +87,11 @@ Can you make the line be on top of the other shapes?
 We can also have shapes that aren't filled in:
 
 ```python
+#setup
 import pygame
 pygame.init()
 screen = pygame.display.set_mode((640,480))
+
 
 screen.fill(pygame.color.THECOLORS['black'])
 
@@ -95,6 +101,8 @@ pygame.draw.rect(screen,pygame.color.THECOLORS['green'],(200,100,50,100),8)
 
 pygame.display.flip()
 
+
+#closing the window
 running = True
 while running:
     for event in pygame.event.get():

@@ -1,8 +1,8 @@
-#More Text-Based Programs To Try
+# More Text-Based Programs To Try
 
 Days 1, 2, and 3 have focus on text-based games and programs. Here are some more fun text-based programs to try. 
 
-###Hailstone Pattern
+### Hailstone Pattern
 
 The hailstone pattern is a cool number pattern that for any positive whole number, it will always end in one. It repeats the following steps until it gets to one: if the number is even, it will divide by two. If the number is odd, it will multiply by three and add one.
 
@@ -42,24 +42,24 @@ What happens when you enter a really big number? How many steps does it take?
 
 Refer to the finished folder for a complete example.
 
-###Tic-Tac-Toe
+### Tic-Tac-Toe
 
 The San Francisco CoderDojo has done a really fun Tic-Tac-Toe Python project that you can go through. Head to https://github.com/CoderDojoSF/tic-tac-toe and follow the links for Lesson 1 and Lesson 2!
 
-###Dragon Realm - Invent With Python
+### Dragon Realm - Invent With Python
 
 [Invent With Python](http://inventwithpython.com/) is a free online Python book with some great projects.
 
 Chapter 6 (page 84) in the book shows how to create a text-adventure game called Dragon Realm. [Here is the online pdf version of the book](http://inventwithpython.com/IYOCGwP_book1.pdf). 
 
-###Invent With Python - Hangman
+### Invent With Python - Hangman
 
 [Invent With Python](http://inventwithpython.com/) is a free online Python book with some great projects.
 
 Chapter 9 (page 132) in the book shows how to create the letter and word guessing game Hangman. [Here is the online pdf version of the book](http://inventwithpython.com/IYOCGwP_book1.pdf). 
 
 
-###Bagels - Invent With Python
+### Bagels - Invent With Python
 
 [Invent With Python](http://inventwithpython.com/) is a free online Python book with some great projects.
 
@@ -73,9 +73,9 @@ Chapter 11 (page 217) in the book shows how to create a number guessing game cal
 
 
 
-##More Graphics Programs to Try
+## More Graphics Programs to Try
 
-###Snake
+### Snake
 
 Snake is a game where you control an always moving character using the keys. The goal is to hit the target without hitting a wall. If you get the target, your character starts moving faster and the target appears somewhere else. The game ends when you hit the wall. 
 
@@ -83,7 +83,7 @@ Here is an example of the game created in Scratch: http://scratch.mit.edu/projec
 
 Refer to the finished folder for a complete example.
 
-###Adding Complexity - Functions that Set Variables
+### Adding Complexity - Functions that Set Variables
 
 If you want to make more complex games, there are some additional concepts that you can put to use. The first is using functions (which you have created before) to change variables. 
 
@@ -110,7 +110,7 @@ def reset_ball(side):
 
 Functions are a powerful way to start creating more impressive games. 
 
-###Adding Complexity - Classes and Sprites in Pygame
+### Adding Complexity - Classes and Sprites in Pygame
 
 For the 6 day track we didn't cover using sprites in Pygame because it involves a new concept: classes. A class can be thought of as a blue-print that you can use to create many copies of something. Each copy can have their own set of variables (called properties). In pong there were already a lot of variables to keep track of, what if the game had many more objects in it!
 
@@ -118,7 +118,7 @@ Take a look at [catch the good ones.py](Finished/catch the good ones.py) for an 
 
 There are many sources to learn more about Pygame sprites and creating Python classes. If you are learning on your own, check out a book like [Hello World! Computer Programming for Kids and Other Beginners](http://www.amazon.com/Hello-World-Computer-Programming-Beginners/dp/1933988495).
 
-###Breakout
+### Breakout
 
 Take a look at [breakout.py](Finished/breakout.py) for another game that uses a class. (You must also download the brick.png file in the [Finished](Finished/) folder.)
 

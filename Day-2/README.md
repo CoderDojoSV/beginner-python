@@ -2,7 +2,7 @@
 
 Our next project is a silly sentence generator that will randomly pick words from lists to generate a funny sentence.
 
-Open the starter file: [silly sentence generator.py](silly sentence generator.py). Copy all the code into a new Python window.
+Open the starter file: [silly sentence generator.py](silly%20sentence%20generator.py). Copy all the code into a new Python window.
 
 ### Let's look at the code:
 

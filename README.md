@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/CoderDojoSV/beginner-python)](https://repl.it/github/CoderDojoSV/beginner-python)
+
 #Introduction to Python
 
 *Learn Python to make text and 2-D games with a typed programming language!*
